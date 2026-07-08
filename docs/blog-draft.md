@@ -20,6 +20,21 @@ meant anything to me a few minutes earlier. Scout walked me through what
 each one does and why they fit together, and it clicked fast enough that
 the only reasonable next step was: let's experiment with this.
 
+The part that stuck with me most isn't even the FIM/MIM search itself.
+It's that I now roughly understand what a vector database is and what a
+text embedding does, well enough to see that the exact same technique
+applies to any other pile of hard-to-search content. That's a repeatable
+skill now, not a one-off script.
+
+## The deployment surprise: why the index shouldn't ship with the code
+
+Early on, redeploying the whole thing after every tiny code change felt
+slow, and it took me a while to notice why: the vector index (the actual
+searchable data) was being rebuilt and shipped inside the same container
+image as the code. Once I split the two, one build for code, one for data,
+code changes turned into a seconds-fast rebuild, and the data only rebuilds
+when it actually changes. Small decision, disproportionate payoff.
+
 ## Before / after
 
 Before: I would have spent 30 minutes just scaffolding a new repo, picking a

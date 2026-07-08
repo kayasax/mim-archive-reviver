@@ -1,0 +1,6 @@
+# Data source image: just the LanceDB vector index, nothing else. Used only
+# as a COPY --from= source by the code image (Dockerfile), never run on its
+# own. Rebuild only when the data actually changes (re-ingested / re-embedded).
+FROM node:20-slim
+WORKDIR /app
+COPY data/lancedb ./data/lancedb

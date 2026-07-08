@@ -1,0 +1,1360 @@
+# TechNet Wiki archive - FIM/MIM curated seed list
+# Source: alpha index https://learn.microsoft.com/en-us/archive/technet-wiki/<letter>/index-N
+# Letters scanned: abcdefghijklmnopqrstuvwxyz
+# Articles scanned: 14584
+# FIM/MIM matches: 451
+# Format: '# <title>' line followed by URL line, blank-separated
+
+# How to install FIM SSPR client with hotfix update
+https://learn.microsoft.com/en-us/archive/technet-wiki/10062.how-to-install-fim-sspr-client-with-hotfix-update
+
+# FIM2010 Troubleshooting: FIM Service Is Not Available
+https://learn.microsoft.com/en-us/archive/technet-wiki/10186.fim2010-troubleshooting-fim-service-is-not-available
+
+# Identity Manager Troubleshooting : FIM Portal, SharePoint and Logon Name displaying on FIM Portal Site
+https://learn.microsoft.com/en-us/archive/technet-wiki/10223.identity-manager-troubleshooting-fim-portal-sharepoint-and-logon-name-displaying-on-fim-portal-site
+
+# FIM Service Troubleshooting: How to Enable Tracing
+https://learn.microsoft.com/en-us/archive/technet-wiki/10225.fim-service-troubleshooting-how-to-enable-tracing
+
+# FIM 2010/MIM2016: How to Enable FIM Service Management Agent Tracing
+https://learn.microsoft.com/en-us/archive/technet-wiki/10227.fim-2010mim2016-how-to-enable-fim-service-management-agent-tracing
+
+# FIM/MIM Portal Troubleshooting: How to Enable Verbose Tracing
+https://learn.microsoft.com/en-us/archive/technet-wiki/10230.fimmim-portal-troubleshooting-how-to-enable-verbose-tracing
+
+# How to Create a Usage Keyword in FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/10240.how-to-create-a-usage-keyword-in-fim-portal
+
+# FIM: How to Display the Security Groups (SGs) Navigation Bar Menu Item to Non-FIM Administrators
+https://learn.microsoft.com/en-us/archive/technet-wiki/10241.fim-how-to-display-the-security-groups-sgs-navigation-bar-menu-item-to-non-fim-administrators
+
+# FIM Troubleshooting: GALSync/ADMA Export Issues
+https://learn.microsoft.com/en-us/archive/technet-wiki/10394.fim-troubleshooting-galsyncadma-export-issues
+
+# FIM Troubleshooting: ADLDS MA - DN is not valid
+https://learn.microsoft.com/en-us/archive/technet-wiki/10395.fim-troubleshooting-adlds-ma-dn-is-not-valid
+
+# Troubleshooting FIM: Export AD Object Fails After a Complete Domain Rebuild
+https://learn.microsoft.com/en-us/archive/technet-wiki/10449.troubleshooting-fim-export-ad-object-fails-after-a-complete-domain-rebuild
+
+# FIM Troubleshooting: How to See the Effect of an Export Without Commiting the Changes
+https://learn.microsoft.com/en-us/archive/technet-wiki/10481.fim-troubleshooting-how-to-see-the-effect-of-an-export-without-commiting-the-changes
+
+# FIM Troubleshooting: FIM MA - Failed to Retrieve Schema Troubleshooter
+https://learn.microsoft.com/en-us/archive/technet-wiki/10482.fim-troubleshooting-fim-ma-failed-to-retrieve-schema-troubleshooter
+
+# FIM Sync Troubleshooting: Event ID 6801 -  The Exchange server address list service failed to respond
+https://learn.microsoft.com/en-us/archive/technet-wiki/10483.fim-sync-troubleshooting-event-id-6801-the-exchange-server-address-list-service-failed-to-respond
+
+# FIM 2010: How to Allow Group Administrators to Add/Remove Members to a Group they do not own
+https://learn.microsoft.com/en-us/archive/technet-wiki/10776.fim-2010-how-to-allow-group-administrators-to-addremove-members-to-a-group-they-do-not-own
+
+# FIM Troubleshooting: Group Administrator gets Access Denied when attempting to Add/Remove a member from a group they do not own
+https://learn.microsoft.com/en-us/archive/technet-wiki/10779.fim-troubleshooting-group-administrator-gets-access-denied-when-attempting-to-addremove-a-member-from-a-group-they-do-not-own
+
+# FIM Installation Companion - Service Principle Names (SPNs)
+https://learn.microsoft.com/en-us/archive/technet-wiki/10818.fim-installation-companion-service-principle-names-spns
+
+# FIM Troublesooting: Event ID: 6311/6401 stopped-server, obsoletionlist.cpp(319): 0 is not a valid DN depth
+https://learn.microsoft.com/en-us/archive/technet-wiki/10930.fim-troublesooting-event-id-63116401-stopped-server-obsoletionlist-cpp-319-0-is-not-a-valid-dn-depth
+
+# FIM2010: How to Replay your Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/10935.fim2010-how-to-replay-your-management-agent
+
+# FIM 2010: How to Solve SQL MA Schema Update Error: "Attribute '&lt;deleted attribute&gt;' could not be located in the schema"
+https://learn.microsoft.com/en-us/archive/technet-wiki/1096.fim-2010-how-to-solve-sql-ma-schema-update-error-attribute-deleted-attribute-could-not-be-located-in-the-schema
+
+# Troubleshooting FIM CM: "Logon failure: unknown user name or bad password"
+https://learn.microsoft.com/en-us/archive/technet-wiki/10982.troubleshooting-fim-cm-logon-failure-unknown-user-name-or-bad-password
+
+# FIM 2010 R2 Installation Companion - Synchronization Service Install
+https://learn.microsoft.com/en-us/archive/technet-wiki/11042.fim-2010-r2-installation-companion-synchronization-service-install
+
+# Troubleshooting the FIM Group Management Outlook Add-In when Approve / Reject buttons are not visible
+https://learn.microsoft.com/en-us/archive/technet-wiki/11051.troubleshooting-the-fim-group-management-outlook-add-in-when-approve-reject-buttons-are-not-visible
+
+# FIM 2010 R2 Installation Companion - FIM Service
+https://learn.microsoft.com/en-us/archive/technet-wiki/11058.fim-2010-r2-installation-companion-fim-service
+
+# FIM 2010 R2 Installation Companion for FIM Portal, Password Reset Portal, Registration Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/11083.fim-2010-r2-installation-companion-for-fim-portal-password-reset-portal-registration-portal
+
+# FIM CM Troubleshooting: RPC server is unavailable - Error 0x800706BA
+https://learn.microsoft.com/en-us/archive/technet-wiki/11134.fim-cm-troubleshooting-rpc-server-is-unavailable-error-0x800706ba
+
+# FIM/MIM Troubleshooting: stopped-dll-exception - The WinRM client received an HTTP status code of 403 from the remote WS-Management service
+https://learn.microsoft.com/en-us/archive/technet-wiki/11231.fimmim-troubleshooting-stopped-dll-exception-the-winrm-client-received-an-http-status-code-of-403-from-the-remote-ws-management-service
+
+# FIM 2010 R2 Troubleshooting: "Stopped-Server" Error on the FIM Service Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/11331.fim-2010-r2-troubleshooting-stopped-server-error-on-the-fim-service-management-agent
+
+# FIM Troubleshooting: ma-extension-error Event ID 6500 - name is not valid for Alias
+https://learn.microsoft.com/en-us/archive/technet-wiki/11427.fim-troubleshooting-ma-extension-error-event-id-6500-name-is-not-valid-for-alias
+
+# FIM Troubleshooting: AD LDS Provisioning: unexpected-error with No Such Attribute
+https://learn.microsoft.com/en-us/archive/technet-wiki/11517.fim-troubleshooting-ad-lds-provisioning-unexpected-error-with-no-such-attribute
+
+# MIM Sync Troubleshooting : extension-dll-exception ObjectAlreadyExistsException
+https://learn.microsoft.com/en-us/archive/technet-wiki/11560.mim-sync-troubleshooting-extension-dll-exception-objectalreadyexistsexception
+
+# ILM 2007 FP1 / FIM 2010 Synchronization Glossary
+https://learn.microsoft.com/en-us/archive/technet-wiki/1169.ilm-2007-fp1-fim-2010-synchronization-glossary
+
+# How to Use Powershell to Clear the AdvancedFilter property on all the SearchScope objects within FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/12051.how-to-use-powershell-to-clear-the-advancedfilter-property-on-all-the-searchscope-objects-within-fim
+
+# FIM 2010 R2 Notes/Domino Connector 8.x Tips and Tricks
+https://learn.microsoft.com/en-us/archive/technet-wiki/12186.fim-2010-r2-notesdomino-connector-8-x-tips-and-tricks
+
+# Forefront Identity Manager (FIM) 2010 Webcasts and Videos
+https://learn.microsoft.com/en-us/archive/technet-wiki/1229.forefront-identity-manager-fim-2010-webcasts-and-videos
+
+# FIM Reference: Monitoring FIM 2010 and/or FIM 2010 R2
+https://learn.microsoft.com/en-us/archive/technet-wiki/12327.fim-reference-monitoring-fim-2010-andor-fim-2010-r2
+
+# FIM Reference: WebServices Connector
+https://learn.microsoft.com/en-us/archive/technet-wiki/12328.fim-reference-webservices-connector
+
+# FIM2010 TROUBLESHOOTING: Error 25070 - Error connecting to database FIMSynchronizationService. Invalid class string
+https://learn.microsoft.com/en-us/archive/technet-wiki/12329.fim2010-troubleshooting-error-25070-error-connecting-to-database-fimsynchronizationservice-invalid-class-string
+
+# FIM2010: How to enable logging for the webservices connector
+https://learn.microsoft.com/en-us/archive/technet-wiki/12427.fim2010-how-to-enable-logging-for-the-webservices-connector
+
+# FIM Sync Troubleshooting: stopped-dll-exception: The following error occurred while using Kerberos authentication
+https://learn.microsoft.com/en-us/archive/technet-wiki/12463.fim-sync-troubleshooting-stopped-dll-exception-the-following-error-occurred-while-using-kerberos-authentication
+
+# FIM 2010/MIM2016 Troubleshooting : WebServices MA - Failed to Update Discovery
+https://learn.microsoft.com/en-us/archive/technet-wiki/12465.fim-2010mim2016-troubleshooting-webservices-ma-failed-to-update-discovery
+
+# FIM Reference: How to automate run profiles via the script button
+https://learn.microsoft.com/en-us/archive/technet-wiki/12528.fim-reference-how-to-automate-run-profiles-via-the-script-button
+
+# FIM/MIM Troubleshooting : Error 25009: CONDITIONAL Failed - SET Options Incorrect 'ARITHABORT'
+https://learn.microsoft.com/en-us/archive/technet-wiki/12621.fimmim-troubleshooting-error-25009-conditional-failed-set-options-incorrect-arithabort
+
+# FIM/MIM Troubleshooting : Event ID: 1000: Faulting application name: miiserver.exe, version: 4.0.2592.0, time stamp: 0x4b6790ea
+https://learn.microsoft.com/en-us/archive/technet-wiki/12632.fimmim-troubleshooting-event-id-1000-faulting-application-name-miiserver-exe-version-4-0-2592-0-time-stamp-0x4b6790ea
+
+# FIM CM Troubleshooting: CCertRequest::GetCAPropertyFlags: The version of the OLE on the client and server machines does not match. 0x80010110
+https://learn.microsoft.com/en-us/archive/technet-wiki/12633.fim-cm-troubleshooting-ccertrequest-getcapropertyflags-the-version-of-the-ole-on-the-client-and-server-machines-does-not-match-0x80010110
+
+# FIM Troubleshooting : (No Display Name) in FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/12682.fim-troubleshooting-no-display-name-in-fim-portal
+
+# Understanding Deprovisioning in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/1270.understanding-deprovisioning-in-fim
+
+# FIM SSPR TROUBLESHOOTING: The FIM Password and Authentication Extensions are not currently installed on this computer
+https://learn.microsoft.com/en-us/archive/technet-wiki/12749.fim-sspr-troubleshooting-the-fim-password-and-authentication-extensions-are-not-currently-installed-on-this-computer
+
+# How to Use IIS 7 HTTP Redirects to Bypass the FIM Landing Page
+https://learn.microsoft.com/en-us/archive/technet-wiki/1290.how-to-use-iis-7-http-redirects-to-bypass-the-fim-landing-page
+
+# FIM Reference: How to register the FIM WMI Provider
+https://learn.microsoft.com/en-us/archive/technet-wiki/13286.fim-reference-how-to-register-the-fim-wmi-provider
+
+# How to Use PowerShell to Delete a FIM User
+https://learn.microsoft.com/en-us/archive/technet-wiki/13302.how-to-use-powershell-to-delete-a-fim-user
+
+# FIM Reference: How to Check for Pending Exports
+https://learn.microsoft.com/en-us/archive/technet-wiki/13357.fim-reference-how-to-check-for-pending-exports
+
+# FIM Troubleshooting: FIM Services do not start during upgrade and/or new installation
+https://learn.microsoft.com/en-us/archive/technet-wiki/13359.fim-troubleshooting-fim-services-do-not-start-during-upgrade-andor-new-installation
+
+# FIM CM Troubleshooting: Portal sporadically fails updating smart card
+https://learn.microsoft.com/en-us/archive/technet-wiki/13624.fim-cm-troubleshooting-portal-sporadically-fails-updating-smart-card
+
+# FIM Troubleshooting: Service 'Forefront Identity Manager Service' (FIMService) failed to start. Verify that you have sufficient privileges to start system services
+https://learn.microsoft.com/en-us/archive/technet-wiki/13639.fim-troubleshooting-service-forefront-identity-manager-service-fimservice-failed-to-start-verify-that-you-have-sufficient-privileges-to-start-system-services
+
+# FIM Troubleshooting: Full Import on a SAP Web Services Management Agent Fails
+https://learn.microsoft.com/en-us/archive/technet-wiki/13675.fim-troubleshooting-full-import-on-a-sap-web-services-management-agent-fails
+
+# Enterprise Roles in Microsoft Forefront Identity Manager 2010 (FIM)
+https://learn.microsoft.com/en-us/archive/technet-wiki/1370.enterprise-roles-in-microsoft-forefront-identity-manager-2010-fim
+
+# Customizing FIM 2010 R2 Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/13727.customizing-fim-2010-r2-portal
+
+# FIM CM Troubleshooting: While Trying to Search for Cards to Print with the Bulk Client You May Get a HTTP 404 Error
+https://learn.microsoft.com/en-us/archive/technet-wiki/13840.fim-cm-troubleshooting-while-trying-to-search-for-cards-to-print-with-the-bulk-client-you-may-get-a-http-404-error
+
+# Troublehshooting FIM CM: 400 errors from the Bulk Issuance Client
+https://learn.microsoft.com/en-us/archive/technet-wiki/13924.troublehshooting-fim-cm-400-errors-from-the-bulk-issuance-client
+
+# FIM2010 Troubleshooting: Event ID 6208 - The server encryption keys could not be accessed
+https://learn.microsoft.com/en-us/archive/technet-wiki/13934.fim2010-troubleshooting-event-id-6208-the-server-encryption-keys-could-not-be-accessed
+
+# FIM Troubleshooting: FIM Service Start-up Timeout
+https://learn.microsoft.com/en-us/archive/technet-wiki/13946.fim-troubleshooting-fim-service-start-up-timeout
+
+# FIM/MIM Troubleshooting: Synchronization Service loses connection with backend database
+https://learn.microsoft.com/en-us/archive/technet-wiki/14051.fimmim-troubleshooting-synchronization-service-loses-connection-with-backend-database
+
+# How to use PowerShell to delete an orphaned Synchronization Rule in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/14113.how-to-use-powershell-to-delete-an-orphaned-synchronization-rule-in-fim
+
+# FIM: HOWTO: Customize the FIM 2010 R2 SSPR strings.resources file with Visual Studio
+https://learn.microsoft.com/en-us/archive/technet-wiki/14148.fim-howto-customize-the-fim-2010-r2-sspr-strings-resources-file-with-visual-studio
+
+# FIM 2010 Service Configuration
+https://learn.microsoft.com/en-us/archive/technet-wiki/14238.fim-2010-service-configuration
+
+# FIM Troubleshooting: Attempted to perform an unauthorized operation.
+https://learn.microsoft.com/en-us/archive/technet-wiki/14307.fim-troubleshooting-attempted-to-perform-an-unauthorized-operation
+
+# FIM 2010 Troubleshooting: Enabling Verbose Logging for the Lotus Notes Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/14316.fim-2010-troubleshooting-enabling-verbose-logging-for-the-lotus-notes-management-agent
+
+# FIM-TROUBLESHOOTING: ORACLE MA: Full Import Error ÔÇ£Completed No ObjectsÔÇØ
+https://learn.microsoft.com/en-us/archive/technet-wiki/14344.fim-troubleshooting-oracle-ma-full-import-error-completed-no-objects
+
+# FIM Troubleshooting: WMI Provider Load Failure
+https://learn.microsoft.com/en-us/archive/technet-wiki/14408.fim-troubleshooting-wmi-provider-load-failure
+
+# FIM Troubleshooting: Connecting to remote server failed with the following error message: Access is denied
+https://learn.microsoft.com/en-us/archive/technet-wiki/14465.fim-troubleshooting-connecting-to-remote-server-failed-with-the-following-error-message-access-is-denied
+
+# FIM Troubleshooting: Sync-rule-flow-provisioning-failed: "Object does not have a parent object in management agent"
+https://learn.microsoft.com/en-us/archive/technet-wiki/1448.fim-troubleshooting-sync-rule-flow-provisioning-failed-object-does-not-have-a-parent-object-in-management-agent
+
+# FIM FAQ Collection
+https://learn.microsoft.com/en-us/archive/technet-wiki/1450.fim-faq-collection
+
+# FIM 2010: How to Run PowerShell Cmdlets on non-FIM Machine
+https://learn.microsoft.com/en-us/archive/technet-wiki/14550.fim-2010-how-to-run-powershell-cmdlets-on-non-fim-machine
+
+# FIM 2010 R2 Troubleshooting: Sync/Service Installation or upgrade Failure and Roll-Back
+https://learn.microsoft.com/en-us/archive/technet-wiki/14551.fim-2010-r2-troubleshooting-syncservice-installation-or-upgrade-failure-and-roll-back
+
+# Troubleshooting FIM Performance: Slow or Hanging Full Synchronization
+https://learn.microsoft.com/en-us/archive/technet-wiki/14713.troubleshooting-fim-performance-slow-or-hanging-full-synchronization
+
+# Troubleshooting FIM: Could not load file or assembly
+https://learn.microsoft.com/en-us/archive/technet-wiki/14714.troubleshooting-fim-could-not-load-file-or-assembly
+
+# FIM/MIM: Installation using an SQL Server Alias
+https://learn.microsoft.com/en-us/archive/technet-wiki/14734.fimmim-installation-using-an-sql-server-alias
+
+# FIM CM 2010 FAQ
+https://learn.microsoft.com/en-us/archive/technet-wiki/1475.fim-cm-2010-faq
+
+# FIM Troubleshooting: Error 25009.The Forefront Identity Manager Synchronization Service setup wizard cannot configure the specified database
+https://learn.microsoft.com/en-us/archive/technet-wiki/14775.fim-troubleshooting-error-25009-the-forefront-identity-manager-synchronization-service-setup-wizard-cannot-configure-the-specified-database
+
+# FIM Reference: Which Run Profile Do I Run First?
+https://learn.microsoft.com/en-us/archive/technet-wiki/14905.fim-reference-which-run-profile-do-i-run-first
+
+# FIM Troubleshooting: stopped-dll-exception: WinRM cannot process the request: Access Denied
+https://learn.microsoft.com/en-us/archive/technet-wiki/15091.fim-troubleshooting-stopped-dll-exception-winrm-cannot-process-the-request-access-denied
+
+# FIM 2010 R2 Troubleshooting: SSPR Error 3000 and 3004 ÔÇô not authorized to register for password reset
+https://learn.microsoft.com/en-us/archive/technet-wiki/15372.fim-2010-r2-troubleshooting-sspr-error-3000-and-3004-not-authorized-to-register-for-password-reset
+
+# FIM Sync: How to use Powershell to Export the Run History to a CSV File
+https://learn.microsoft.com/en-us/archive/technet-wiki/15400.fim-sync-how-to-use-powershell-to-export-the-run-history-to-a-csv-file
+
+# FIM 2010 R2 Troubleshooting: SSPR Error 3000:could not load file or assembly: 0x80131047
+https://learn.microsoft.com/en-us/archive/technet-wiki/15428.fim-2010-r2-troubleshooting-sspr-error-3000-could-not-load-file-or-assembly-0x80131047
+
+# FIM Troubleshooting: SSPR Error 3000 - IIS Authentication Settings
+https://learn.microsoft.com/en-us/archive/technet-wiki/15429.fim-troubleshooting-sspr-error-3000-iis-authentication-settings
+
+# FIM TROUBLESHOOTING: PCNS Event ID 6025 ÔÇô Status: 1747
+https://learn.microsoft.com/en-us/archive/technet-wiki/15430.fim-troubleshooting-pcns-event-id-6025-status-1747
+
+# FIM2010 Troubleshooting: Run Profiles 0x8004100E - Invalid Namespace
+https://learn.microsoft.com/en-us/archive/technet-wiki/15467.fim2010-troubleshooting-run-profiles-0x8004100e-invalid-namespace
+
+# FIM Reference: Portal, Password Registration Portal, and Password Reset Portal Software Requirements
+https://learn.microsoft.com/en-us/archive/technet-wiki/15471.fim-reference-portal-password-registration-portal-and-password-reset-portal-software-requirements
+
+# Troubleshooting FIM: HTTP client has prematurely closed the underlying TCP connection
+https://learn.microsoft.com/en-us/archive/technet-wiki/15489.troubleshooting-fim-http-client-has-prematurely-closed-the-underlying-tcp-connection
+
+# FIM ScriptBox Article Template
+https://learn.microsoft.com/en-us/archive/technet-wiki/15495.fim-scriptbox-article-template
+
+# Troubleshooting FIM: GALSync stopped-server on MA export
+https://learn.microsoft.com/en-us/archive/technet-wiki/15526.troubleshooting-fim-galsync-stopped-server-on-ma-export
+
+# Troubleshooting FIM: Event ID 6401 ÔÇô management agent controller encountered an unexpected error
+https://learn.microsoft.com/en-us/archive/technet-wiki/15550.troubleshooting-fim-event-id-6401-management-agent-controller-encountered-an-unexpected-error
+
+# Troubleshooting FIM CM: error 0x80092013 - revocation function was unable to check revocation
+https://learn.microsoft.com/en-us/archive/technet-wiki/15552.troubleshooting-fim-cm-error-0x80092013-revocation-function-was-unable-to-check-revocation
+
+# FIM 2010 R2 Troubleshooting: Error 3000: Access is denied. (Exception from HRESULT: 0x80070005
+https://learn.microsoft.com/en-us/archive/technet-wiki/15553.fim-2010-r2-troubleshooting-error-3000-access-is-denied-exception-from-hresult-0x80070005
+
+# FIM SSPR Troubleshooting: Error 3000 - Value cannot be null
+https://learn.microsoft.com/en-us/archive/technet-wiki/15600.fim-sspr-troubleshooting-error-3000-value-cannot-be-null
+
+# Troubleshooting FIM: Does Your FIM Service Process Too Many Set Correction Requests?
+https://learn.microsoft.com/en-us/archive/technet-wiki/15633.troubleshooting-fim-does-your-fim-service-process-too-many-set-correction-requests
+
+# FIM 2010 &amp; MIM 2016: Management Agents from Partners
+https://learn.microsoft.com/en-us/archive/technet-wiki/1589.fim-2010-mim-2016-management-agents-from-partners
+
+# Troubleshooting FIM: Service Is Not Available - Invalid SPN on the Application Pool Identity Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/15910.troubleshooting-fim-service-is-not-available-invalid-spn-on-the-application-pool-identity-account
+
+# Troubleshooting FIM GALSync: No contacts to provision
+https://learn.microsoft.com/en-us/archive/technet-wiki/15915.troubleshooting-fim-galsync-no-contacts-to-provision
+
+# Identity Manager Troubleshooting: Notification Workflows that send email from the FIM Service Account are not working
+https://learn.microsoft.com/en-us/archive/technet-wiki/16016.identity-manager-troubleshooting-notification-workflows-that-send-email-from-the-fim-service-account-are-not-working
+
+# Troubleshooting FIM: sync-rule-invalid-xml-attribute-flow
+https://learn.microsoft.com/en-us/archive/technet-wiki/16056.troubleshooting-fim-sync-rule-invalid-xml-attribute-flow
+
+# FIM Service Troubleshooting: Set creation fails when using negative conditions
+https://learn.microsoft.com/en-us/archive/technet-wiki/16057.fim-service-troubleshooting-set-creation-fails-when-using-negative-conditions
+
+# How to Install FIM 2010 R2 SP1 on Windows Server 2012, SCSM 2012, SQL 2012 and SharePoint 2013.
+https://learn.microsoft.com/en-us/archive/technet-wiki/16173.how-to-install-fim-2010-r2-sp1-on-windows-server-2012-scsm-2012-sql-2012-and-sharepoint-2013
+
+# Troubleshooting FIM: SSPR-Error 3000-pwUnrecoverable
+https://learn.microsoft.com/en-us/archive/technet-wiki/16259.troubleshooting-fim-sspr-error-3000-pwunrecoverable
+
+# How to check the object deletion rule in FIM 2010 Synchronization server
+https://learn.microsoft.com/en-us/archive/technet-wiki/16553.how-to-check-the-object-deletion-rule-in-fim-2010-synchronization-server
+
+# Troubleshooting FIM Synchronization: unexpected-error thrown for a single object
+https://learn.microsoft.com/en-us/archive/technet-wiki/16554.troubleshooting-fim-synchronization-unexpected-error-thrown-for-a-single-object
+
+# Troubleshooting FIM2010 SSPR: Error 3000 - Access Denied
+https://learn.microsoft.com/en-us/archive/technet-wiki/16572.troubleshooting-fim2010-sspr-error-3000-access-denied
+
+# Troubleshooting FIM 2010 R2: Service Not Available When Accessing FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/16576.troubleshooting-fim-2010-r2-service-not-available-when-accessing-fim-portal
+
+# FIM Troubleshooting: FIMMA Export is Slow
+https://learn.microsoft.com/en-us/archive/technet-wiki/16577.fim-troubleshooting-fimma-export-is-slow
+
+# FIM Troubleshooting: Service and Portal Installation - The Web site address "/IdentityManagement" already in use.
+https://learn.microsoft.com/en-us/archive/technet-wiki/16578.fim-troubleshooting-service-and-portal-installation-the-web-site-address-identitymanagement-already-in-use
+
+# FIM 2010 Troubleshooting: Discovery Errors - multi-single-mismatch
+https://learn.microsoft.com/en-us/archive/technet-wiki/16579.fim-2010-troubleshooting-discovery-errors-multi-single-mismatch
+
+# FIM 2010 Troubleshooting: EventID 6313 - Unable to Load Performance Counters for Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/16631.fim-2010-troubleshooting-eventid-6313-unable-to-load-performance-counters-for-management-agent
+
+# FIM Troubleshooting: Synchronization Service setup is having trouble contacting SQL server
+https://learn.microsoft.com/en-us/archive/technet-wiki/16682.fim-troubleshooting-synchronization-service-setup-is-having-trouble-contacting-sql-server
+
+# FIM Troubleshooting: Receiving Event ID 1000 with Faulting Application mmsscrpt.exe
+https://learn.microsoft.com/en-us/archive/technet-wiki/16776.fim-troubleshooting-receiving-event-id-1000-with-faulting-application-mmsscrpt-exe
+
+# FIM Troubleshooting: The SQL Server Service Broker must be enabled on the Forefront Identity Manager Service database
+https://learn.microsoft.com/en-us/archive/technet-wiki/16834.fim-troubleshooting-the-sql-server-service-broker-must-be-enabled-on-the-forefront-identity-manager-service-database
+
+# FIM Reporting Troubleshooting: Performance Issue with  p_DiscoveryDataPurgingByBaseManagedEntity
+https://learn.microsoft.com/en-us/archive/technet-wiki/16873.fim-reporting-troubleshooting-performance-issue-with-p-discoverydatapurgingbybasemanagedentity
+
+# FIM Reference: How to set more granular permissions than "replicating directory changes" on a source AD read by the ADMA
+https://learn.microsoft.com/en-us/archive/technet-wiki/16874.fim-reference-how-to-set-more-granular-permissions-than-replicating-directory-changes-on-a-source-ad-read-by-the-adma
+
+# FIM Troubleshooting: Provisioning users to AD returns Kerberos-no-logon-server
+https://learn.microsoft.com/en-us/archive/technet-wiki/16880.fim-troubleshooting-provisioning-users-to-ad-returns-kerberos-no-logon-server
+
+# FIM Troubleshooting: PCNS received an RPC exception attempting to deliver
+https://learn.microsoft.com/en-us/archive/technet-wiki/16882.fim-troubleshooting-pcns-received-an-rpc-exception-attempting-to-deliver
+
+# FIM SSPR Troubleshooting: Could not connect to the password reset service.
+https://learn.microsoft.com/en-us/archive/technet-wiki/16885.fim-sspr-troubleshooting-could-not-connect-to-the-password-reset-service
+
+# FIM Troubleshooting: SSPR Rich client - "an error was encountered"
+https://learn.microsoft.com/en-us/archive/technet-wiki/16886.fim-troubleshooting-sspr-rich-client-an-error-was-encountered
+
+# FIM Troubleshooting: SUN One MA Import Stopped-Connectivity
+https://learn.microsoft.com/en-us/archive/technet-wiki/16888.fim-troubleshooting-sun-one-ma-import-stopped-connectivity
+
+# FIM2010: How to Use OOB Function Evaluator workflow to parse EMail for MailNickname
+https://learn.microsoft.com/en-us/archive/technet-wiki/16912.fim2010-how-to-use-oob-function-evaluator-workflow-to-parse-email-for-mailnickname
+
+# FIM Troubleshooting: ECMA 2.x error extensible-connector-refresh-required
+https://learn.microsoft.com/en-us/archive/technet-wiki/16926.fim-troubleshooting-ecma-2-x-error-extensible-connector-refresh-required
+
+# FIM 2010 Software Solutions from Partners
+https://learn.microsoft.com/en-us/archive/technet-wiki/1693.fim-2010-software-solutions-from-partners
+
+# FIM Reference: Logging for Certificate Management
+https://learn.microsoft.com/en-us/archive/technet-wiki/16978.fim-reference-logging-for-certificate-management
+
+# FIM 2010 Troubleshooting: FIMMA- Failed to connect to the specified database
+https://learn.microsoft.com/en-us/archive/technet-wiki/16980.fim-2010-troubleshooting-fimma-failed-to-connect-to-the-specified-database
+
+# FIM/MIM Troubleshooting: Error Code 9506 on ADMA When Trying to Connect to Domain
+https://learn.microsoft.com/en-us/archive/technet-wiki/17019.fimmim-troubleshooting-error-code-9506-on-adma-when-trying-to-connect-to-domain
+
+# FIM Troubleshooting: Failure to install hotfix ÔÇô VerifySharePoint2010ClaimsAuthenticationOff. Return value 3
+https://learn.microsoft.com/en-us/archive/technet-wiki/17100.fim-troubleshooting-failure-to-install-hotfix-verifysharepoint2010claimsauthenticationoff-return-value-3
+
+# FIM Troubleshooting: ECMA V2 ÔÇô Export Only Management Agent ÔÇô The image or delta doesnÔÇÖt have an anchor
+https://learn.microsoft.com/en-us/archive/technet-wiki/17186.fim-troubleshooting-ecma-v2-export-only-management-agent-the-image-or-delta-doesnt-have-an-anchor
+
+# FIM troubleshooting: Failed-Creation-Via-Web-Services: InvalidRepresentationException: ValueViolatesUniqueness
+https://learn.microsoft.com/en-us/archive/technet-wiki/17242.fim-troubleshooting-failed-creation-via-web-services-invalidrepresentationexception-valueviolatesuniqueness
+
+# FIM Troubleshooting: Failed-Creation-Via-Web-Services: The endpoint could not dispatch the request
+https://learn.microsoft.com/en-us/archive/technet-wiki/17245.fim-troubleshooting-failed-creation-via-web-services-the-endpoint-could-not-dispatch-the-request
+
+# FIM Troubleshooting: Portal access - URL authorization failed for the request
+https://learn.microsoft.com/en-us/archive/technet-wiki/17248.fim-troubleshooting-portal-access-url-authorization-failed-for-the-request
+
+# FIM Troubleshooting: ADMA Full Import: no-start-bad-ma-config Error 6009
+https://learn.microsoft.com/en-us/archive/technet-wiki/17249.fim-troubleshooting-adma-full-import-no-start-bad-ma-config-error-6009
+
+# FIM Troubleshooting: SSPR Registration: You or somebody else attempted to reset your password.
+https://learn.microsoft.com/en-us/archive/technet-wiki/17250.fim-troubleshooting-sspr-registration-you-or-somebody-else-attempted-to-reset-your-password
+
+# Forefront Identity Manager (FIM) Events &amp; Event logs
+https://learn.microsoft.com/en-us/archive/technet-wiki/17288.forefront-identity-manager-fim-events-event-logs
+
+# Installing and Configuring an nCipher Hardware Security Module (HSM) with FIM CM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/1730.installing-and-configuring-an-ncipher-hardware-security-module-hsm-with-fim-cm-2010
+
+# Installing and Configuring a LunaSA Hardware Security Module (HSM) with FIM CM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/1731.installing-and-configuring-a-lunasa-hardware-security-module-hsm-with-fim-cm-2010
+
+# Microsoft Identity Manager: Community, feeds &amp; blogs
+https://learn.microsoft.com/en-us/archive/technet-wiki/17314.microsoft-identity-manager-community-feeds-blogs
+
+# FIM Troubleshooting: Installation Error 25009 (SA admin rights missing)
+https://learn.microsoft.com/en-us/archive/technet-wiki/1734.fim-troubleshooting-installation-error-25009-sa-admin-rights-missing
+
+# Troubleshooting FIM:  Failed to connect to specified database.  The extension operation aborted due to an internal error in FIM Synchronization Service
+https://learn.microsoft.com/en-us/archive/technet-wiki/17367.troubleshooting-fim-failed-to-connect-to-specified-database-the-extension-operation-aborted-due-to-an-internal-error-in-fim-synchronization-service
+
+# FIM Troubleshooting: CM Upgrade Fails exception executing SQL statement
+https://learn.microsoft.com/en-us/archive/technet-wiki/17405.fim-troubleshooting-cm-upgrade-fails-exception-executing-sql-statement
+
+# FIM Troubleshooting: FIM Service Polling the Exchange Web Service (EWS) fills the Application Event Log
+https://learn.microsoft.com/en-us/archive/technet-wiki/17439.fim-troubleshooting-fim-service-polling-the-exchange-web-service-ews-fills-the-application-event-log
+
+# FIM Troubleshooting: Event ID 6152 ÔÇô stopped-extension-dll-load
+https://learn.microsoft.com/en-us/archive/technet-wiki/17550.fim-troubleshooting-event-id-6152-stopped-extension-dll-load
+
+# How to Print a Smart Card using FIM Certificate Management and ID Works Software v6.5 or v5.1
+https://learn.microsoft.com/en-us/archive/technet-wiki/1763.how-to-print-a-smart-card-using-fim-certificate-management-and-id-works-software-v6-5-or-v5-1
+
+# FIM Troubleshooting: Refresh Schema on FIM MA fails with Event ID 6331
+https://learn.microsoft.com/en-us/archive/technet-wiki/17658.fim-troubleshooting-refresh-schema-on-fim-ma-fails-with-event-id-6331
+
+# FIM Reporting Troubleshooting: A Transport-Level Error Has Occurred During Initial Sync
+https://learn.microsoft.com/en-us/archive/technet-wiki/17660.fim-reporting-troubleshooting-a-transport-level-error-has-occurred-during-initial-sync
+
+# Troubleshooting FIM: Reporting Installation Using SCCM 2012 SP1
+https://learn.microsoft.com/en-us/archive/technet-wiki/17662.troubleshooting-fim-reporting-installation-using-sccm-2012-sp1
+
+# Troubleshooting FIM CM: Certificate Request Error: Denied by Policy Module
+https://learn.microsoft.com/en-us/archive/technet-wiki/17694.troubleshooting-fim-cm-certificate-request-error-denied-by-policy-module
+
+# Troubleshooting FIM: "Unable to Retrieve Configuration Parameters" When Configuring a Web Service Management Agent in FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/17698.troubleshooting-fim-unable-to-retrieve-configuration-parameters-when-configuring-a-web-service-management-agent-in-fim-2010
+
+# FIM Reference: How to Flow msExchHideFromAddressList but Filter if the Value Is True
+https://learn.microsoft.com/en-us/archive/technet-wiki/17707.fim-reference-how-to-flow-msexchhidefromaddresslist-but-filter-if-the-value-is-true
+
+# FIM CM Troubleshooting: Attempts to Retire Smart Card Receive Error 0x80072116
+https://learn.microsoft.com/en-us/archive/technet-wiki/17844.fim-cm-troubleshooting-attempts-to-retire-smart-card-receive-error-0x80072116
+
+# Troubleshooting FIM CM: Viewing the Policy Module Properties with the Active Directory Certificate Services Console Fails
+https://learn.microsoft.com/en-us/archive/technet-wiki/17846.troubleshooting-fim-cm-viewing-the-policy-module-properties-with-the-active-directory-certificate-services-console-fails
+
+# Troubleshooting FIM: The property value you specified, "-1073740026", isn't defined in the Enum type "Nullable`1"
+https://learn.microsoft.com/en-us/archive/technet-wiki/17909.troubleshooting-fim-the-property-value-you-specified-1073740026-isn-t-defined-in-the-enum-type-nullable1
+
+# FIM 2010 R2 Troubleshooting: SSPR Error 3000: PWReset Activity's MIIS Password Set call failed with call-failure:0x80004005
+https://learn.microsoft.com/en-us/archive/technet-wiki/17912.fim-2010-r2-troubleshooting-sspr-error-3000-pwreset-activity-s-miis-password-set-call-failed-with-call-failure-0x80004005
+
+# FIM Troubleshooting: Event ID 10016 - The application-specific permission settings do not grant Local Activation permission for the COM Server application
+https://learn.microsoft.com/en-us/archive/technet-wiki/17914.fim-troubleshooting-event-id-10016-the-application-specific-permission-settings-do-not-grant-local-activation-permission-for-the-com-server-application
+
+# FIM reference: How to Easily Export a Connector Space List to Excel
+https://learn.microsoft.com/en-us/archive/technet-wiki/17915.fim-reference-how-to-easily-export-a-connector-space-list-to-excel
+
+# FIM Troubleshooting: Install FIM Data Warehouse Support Scripts on a Remote SQL Server
+https://learn.microsoft.com/en-us/archive/technet-wiki/17916.fim-troubleshooting-install-fim-data-warehouse-support-scripts-on-a-remote-sql-server
+
+# FIM Reference: Discovery Errors
+https://learn.microsoft.com/en-us/archive/technet-wiki/17977.fim-reference-discovery-errors
+
+# FIM CM Reference: Improve Search Performance When Using Custom or AD Attributes
+https://learn.microsoft.com/en-us/archive/technet-wiki/18007.fim-cm-reference-improve-search-performance-when-using-custom-or-ad-attributes
+
+# FIM CM Reference:  Increasing the Max Pool Size in FIM CM
+https://learn.microsoft.com/en-us/archive/technet-wiki/18023.fim-cm-reference-increasing-the-max-pool-size-in-fim-cm
+
+# FIM2010: How to set Manager Attribute from Text-File MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/18228.fim2010-how-to-set-manager-attribute-from-text-file-ma
+
+# FIM/MIM Synchronization: Troubleshooting Extensions
+https://learn.microsoft.com/en-us/archive/technet-wiki/1838.fimmim-synchronization-troubleshooting-extensions
+
+# Get Help with ILM and FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/1839.get-help-with-ilm-and-fim
+
+# FIM: Troubleshooting : An exception occurred while running SolutionPackUtility.exe
+https://learn.microsoft.com/en-us/archive/technet-wiki/18525.fim-troubleshooting-an-exception-occurred-while-running-solutionpackutility-exe
+
+# Troubleshooting FIM: An update conflict has occurred, and you must re-try this
+https://learn.microsoft.com/en-us/archive/technet-wiki/18526.troubleshooting-fim-an-update-conflict-has-occurred-and-you-must-re-try-this
+
+# FIM Troubleshooting: Failed to retrieve schema and Event ID 6331
+https://learn.microsoft.com/en-us/archive/technet-wiki/18544.fim-troubleshooting-failed-to-retrieve-schema-and-event-id-6331
+
+# FIM Troubleshooting: Cannot generate SSPI Context
+https://learn.microsoft.com/en-us/archive/technet-wiki/18545.fim-troubleshooting-cannot-generate-sspi-context
+
+# FIM 2010 R2: How to Make a Connection to Oracle Database 11g
+https://learn.microsoft.com/en-us/archive/technet-wiki/18548.fim-2010-r2-how-to-make-a-connection-to-oracle-database-11g
+
+# FIM Troubleshooting: How to enable tracing in the Directory Synchronization Password Synchronization component
+https://learn.microsoft.com/en-us/archive/technet-wiki/18549.fim-troubleshooting-how-to-enable-tracing-in-the-directory-synchronization-password-synchronization-component
+
+# FIM 2010 R2: How to Bulk Import Attributes Flow Rules into a Synchronization Rule in the Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/18619.fim-2010-r2-how-to-bulk-import-attributes-flow-rules-into-a-synchronization-rule-in-the-portal
+
+# Tips for Working with Microsoft Support (Forefront Identity Manager)
+https://learn.microsoft.com/en-us/archive/technet-wiki/1868.tips-for-working-with-microsoft-support-forefront-identity-manager
+
+# Troubleshooting FIM: Server Database could not be successfully deployed.
+https://learn.microsoft.com/en-us/archive/technet-wiki/18762.troubleshooting-fim-server-database-could-not-be-successfully-deployed
+
+# How to Implement Joins and Data Matching in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/1881.how-to-implement-joins-and-data-matching-in-fim
+
+# FIM Portal - unable to process your request error
+https://learn.microsoft.com/en-us/archive/technet-wiki/18907.fim-portal-unable-to-process-your-request-error
+
+# FIM 2010: decommissioning Checklist
+https://learn.microsoft.com/en-us/archive/technet-wiki/18929.fim-2010-decommissioning-checklist
+
+# FIM Service Troubleshooting: installation Error 1722 - Check Sharepoint Farm Administrator With Open Permission returned actual error code
+https://learn.microsoft.com/en-us/archive/technet-wiki/18930.fim-service-troubleshooting-installation-error-1722-check-sharepoint-farm-administrator-with-open-permission-returned-actual-error-code
+
+# FIM 2010: How to Automate Sync Engine Run Profile Execution
+https://learn.microsoft.com/en-us/archive/technet-wiki/1899.fim-2010-how-to-automate-sync-engine-run-profile-execution
+
+# Troubleshooting FIM: extension-unexpected-attribute-value: mv-deletion: msExchDynamicDistributionL
+https://learn.microsoft.com/en-us/archive/technet-wiki/19034.troubleshooting-fim-extension-unexpected-attribute-value-mv-deletion-msexchdynamicdistributionl
+
+# FIM Reference: Refreshing Interfaces of ECMA 2.0 Version of Lotus Domino MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/19101.fim-reference-refreshing-interfaces-of-ecma-2-0-version-of-lotus-domino-ma
+
+# FIM 2010 R2: Creating a Custom Metaverse Object Deletion Rule Using C#
+https://learn.microsoft.com/en-us/archive/technet-wiki/19180.fim-2010-r2-creating-a-custom-metaverse-object-deletion-rule-using-c
+
+# FIM 2010: How to use Windows Service for Scheduling Run profiles
+https://learn.microsoft.com/en-us/archive/technet-wiki/19397.fim-2010-how-to-use-windows-service-for-scheduling-run-profiles
+
+# FIM 2010 R2: How to Manage Group Membership from the User UI
+https://learn.microsoft.com/en-us/archive/technet-wiki/19615.fim-2010-r2-how-to-manage-group-membership-from-the-user-ui
+
+# FIM 2010 R2: Using FIM to Synchronize User Data with HP Service Manager 9 (SM9)
+https://learn.microsoft.com/en-us/archive/technet-wiki/19704.fim-2010-r2-using-fim-to-synchronize-user-data-with-hp-service-manager-9-sm9
+
+# TechNet Guru Contributions - Forefront Identity Manager
+https://learn.microsoft.com/en-us/archive/technet-wiki/19902.technet-guru-contributions-forefront-identity-manager
+
+# How to Use PowerShell to Display the FIM Security Groups
+https://learn.microsoft.com/en-us/archive/technet-wiki/20044.how-to-use-powershell-to-display-the-fim-security-groups
+
+# Troubleshooting FIM: SSPR Error 3003 - The current user account is not recognized by Forefront Identity Manager.  Please contact your help desk or system administrator.
+https://learn.microsoft.com/en-us/archive/technet-wiki/20213.troubleshooting-fim-sspr-error-3003-the-current-user-account-is-not-recognized-by-forefront-identity-manager-please-contact-your-help-desk-or-system-administrator
+
+# FIM 2010 R2: How to Search for Request Details in msidmCompositeType
+https://learn.microsoft.com/en-us/archive/technet-wiki/20284.fim-2010-r2-how-to-search-for-request-details-in-msidmcompositetype
+
+# FIM 2010 R2: WAAD Connector - Managing the SourceAnchor field in a Multi-Forest Exchange organization
+https://learn.microsoft.com/en-us/archive/technet-wiki/20397.fim-2010-r2-waad-connector-managing-the-sourceanchor-field-in-a-multi-forest-exchange-organization
+
+# FIM Troubleshooting: Generic Synchronization Errors
+https://learn.microsoft.com/en-us/archive/technet-wiki/2047.fim-troubleshooting-generic-synchronization-errors
+
+# How to Use PowerShell to Create FIM ActivityInformationConfiguration Objects
+https://learn.microsoft.com/en-us/archive/technet-wiki/2056.how-to-use-powershell-to-create-fim-activityinformationconfiguration-objects
+
+# How to Use PowerShell to Test the FIM Management Agent Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/2059.how-to-use-powershell-to-test-the-fim-management-agent-account
+
+# MIM 2016: How to Add a CheckBox to a Custom Workflow UI
+https://learn.microsoft.com/en-us/archive/technet-wiki/2071.mim-2016-how-to-add-a-checkbox-to-a-custom-workflow-ui
+
+# Microsoft Forefront Identity Manager 2010 R2 Handbook - shortcuts
+https://learn.microsoft.com/en-us/archive/technet-wiki/20788.microsoft-forefront-identity-manager-2010-r2-handbook-shortcuts
+
+# How to Use PowerShell to Create a User in the FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/2083.how-to-use-powershell-to-create-a-user-in-the-fim-portal
+
+# How to Use PowerShell to List the Configured Management Agents in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/2086.how-to-use-powershell-to-list-the-configured-management-agents-in-fim
+
+# How to Use PowerShell to Manage Multiple FIM Scenarios on a Lab Computer
+https://learn.microsoft.com/en-us/archive/technet-wiki/2089.how-to-use-powershell-to-manage-multiple-fim-scenarios-on-a-lab-computer
+
+# How to Use PowerShell to Delete a User in the FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/2092.how-to-use-powershell-to-delete-a-user-in-the-fim-portal
+
+# MIM2016: How to Use PowerShell to Delete the Run History Based on a Specific Date
+https://learn.microsoft.com/en-us/archive/technet-wiki/2096.mim2016-how-to-use-powershell-to-delete-the-run-history-based-on-a-specific-date
+
+# FIM Troubleshooting: Portal Upgrade - The Web application at http://localhost could not be found
+https://learn.microsoft.com/en-us/archive/technet-wiki/20984.fim-troubleshooting-portal-upgrade-the-web-application-at-http-localhost-could-not-be-found
+
+# How to Use PowerShell to Check Your MPR Configuration for FIM Portal Access
+https://learn.microsoft.com/en-us/archive/technet-wiki/2099.how-to-use-powershell-to-check-your-mpr-configuration-for-fim-portal-access
+
+# How to Use PowerShell to Display a UserÔÇÖs Attribute Values for FIM Portal Access
+https://learn.microsoft.com/en-us/archive/technet-wiki/2100.how-to-use-powershell-to-display-a-users-attribute-values-for-fim-portal-access
+
+# How to Post a FIM ScriptBox Script
+https://learn.microsoft.com/en-us/archive/technet-wiki/2103.how-to-post-a-fim-scriptbox-script
+
+# How to Use Powershell to Delete All Users from the FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/2108.how-to-use-powershell-to-delete-all-users-from-the-fim-portal
+
+# FIM 2010 R2 Troubleshooting: How to Enable ETW Tracing for Connectors
+https://learn.microsoft.com/en-us/archive/technet-wiki/21086.fim-2010-r2-troubleshooting-how-to-enable-etw-tracing-for-connectors
+
+# How to Use Powershell to Create Manager-Based Distribution Lists from a CSV File (FIM 2010)
+https://learn.microsoft.com/en-us/archive/technet-wiki/2110.how-to-use-powershell-to-create-manager-based-distribution-lists-from-a-csv-file-fim-2010
+
+# FIM: How to Use Workflows to Automate the Calculation and Notification of Initial Passwords
+https://learn.microsoft.com/en-us/archive/technet-wiki/2121.fim-how-to-use-workflows-to-automate-the-calculation-and-notification-of-initial-passwords
+
+# FIM Quick Troubleshooter: SSPR Registration: Error 3004 ÔÇô not authorized to register for password reset
+https://learn.microsoft.com/en-us/archive/technet-wiki/21221.fim-quick-troubleshooter-sspr-registration-error-3004-not-authorized-to-register-for-password-reset
+
+# FIM2010: Understanding Run on Policy Update
+https://learn.microsoft.com/en-us/archive/technet-wiki/2130.fim2010-understanding-run-on-policy-update
+
+# FIM MV Schema Documenter
+https://learn.microsoft.com/en-us/archive/technet-wiki/2133.fim-mv-schema-documenter
+
+# FIM Active Schema Documenter
+https://learn.microsoft.com/en-us/archive/technet-wiki/2135.fim-active-schema-documenter
+
+# FIM Provisioning Configuration Documenter
+https://learn.microsoft.com/en-us/archive/technet-wiki/2136.fim-provisioning-configuration-documenter
+
+# FIM MA Attribute Flow Documenter
+https://learn.microsoft.com/en-us/archive/technet-wiki/2137.fim-ma-attribute-flow-documenter
+
+# MIM2016/FIM2010: How to Remove New, Delete, and Other Buttons from FIM Portal Pages
+https://learn.microsoft.com/en-us/archive/technet-wiki/2139.mim2016fim2010-how-to-remove-new-delete-and-other-buttons-from-fim-portal-pages
+
+# FIM Get Resource By Name Viewer
+https://learn.microsoft.com/en-us/archive/technet-wiki/2142.fim-get-resource-by-name-viewer
+
+# FIM CSExport Viewer
+https://learn.microsoft.com/en-us/archive/technet-wiki/2143.fim-csexport-viewer
+
+# FIM CS Synchronization Rule Viewer Plus
+https://learn.microsoft.com/en-us/archive/technet-wiki/2144.fim-cs-synchronization-rule-viewer-plus
+
+# FIM Attribute Flow Precedence Viewer
+https://learn.microsoft.com/en-us/archive/technet-wiki/2145.fim-attribute-flow-precedence-viewer
+
+# FIM Scriptor
+https://learn.microsoft.com/en-us/archive/technet-wiki/2146.fim-scriptor
+
+# FIM Object Visualizer
+https://learn.microsoft.com/en-us/archive/technet-wiki/2147.fim-object-visualizer
+
+# Troubleshooting FIM 2010 BHOLD: Access Management Connector export fails with "extensible-extension-error"
+https://learn.microsoft.com/en-us/archive/technet-wiki/21538.troubleshooting-fim-2010-bhold-access-management-connector-export-fails-with-extensible-extension-error
+
+# Understanding Password Expiration Notifications in FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/2171.understanding-password-expiration-notifications-in-fim-2010
+
+# GALSync: Implementing Exchange Remote PowerShell Tools for FIM Galsync between 2 AD Forests
+https://learn.microsoft.com/en-us/archive/technet-wiki/21759.galsync-implementing-exchange-remote-powershell-tools-for-fim-galsync-between-2-ad-forests
+
+# FIM 2010: How to Configure the Exchange 2010 RPS URI
+https://learn.microsoft.com/en-us/archive/technet-wiki/2189.fim-2010-how-to-configure-the-exchange-2010-rps-uri
+
+# FIM REFERENCE: How to Enable/Disable an AD account and set other UAC flags in a Declarative Sync Rule
+https://learn.microsoft.com/en-us/archive/technet-wiki/22114.fim-reference-how-to-enabledisable-an-ad-account-and-set-other-uac-flags-in-a-declarative-sync-rule
+
+# FIM 2010 Build Overview
+https://learn.microsoft.com/en-us/archive/technet-wiki/2229.fim-2010-build-overview
+
+# FIM 2010 R2 SP1: How to Prepare/Execute Installation of Add-ins and Extensions via GPO
+https://learn.microsoft.com/en-us/archive/technet-wiki/2236.fim-2010-r2-sp1-how-to-prepareexecute-installation-of-add-ins-and-extensions-via-gpo
+
+# How to Use PowerShell to Display the Version of Your FIM Components
+https://learn.microsoft.com/en-us/archive/technet-wiki/2238.how-to-use-powershell-to-display-the-version-of-your-fim-components
+
+# FIM 2010 (R2): Well-known GUIDS
+https://learn.microsoft.com/en-us/archive/technet-wiki/22439.fim-2010-r2-well-known-guids
+
+# MIM 2016/ FIM2010 Troubleshooting Sync-rule-flow-provisioning-failed: An Object with DN Already Exists in Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/2253.mim-2016-fim2010-troubleshooting-sync-rule-flow-provisioning-failed-an-object-with-dn-already-exists-in-management-agent
+
+# How to Configure FIM Portal Tracing
+https://learn.microsoft.com/en-us/archive/technet-wiki/2260.how-to-configure-fim-portal-tracing
+
+# How to Use PowerShell to Set WMI Permissions for FIM Self-Service Password Reset
+https://learn.microsoft.com/en-us/archive/technet-wiki/2261.how-to-use-powershell-to-set-wmi-permissions-for-fim-self-service-password-reset
+
+# Troubleshooting RCDC Configuration Issues Using FIM Portal Tracing
+https://learn.microsoft.com/en-us/archive/technet-wiki/2262.troubleshooting-rcdc-configuration-issues-using-fim-portal-tracing
+
+# FIM 2010: Installing BHold FIM Integration
+https://learn.microsoft.com/en-us/archive/technet-wiki/22621.fim-2010-installing-bhold-fim-integration
+
+# FIM Portals: Use PowerShell to Find all Users Without a Manager
+https://learn.microsoft.com/en-us/archive/technet-wiki/22713.fim-portals-use-powershell-to-find-all-users-without-a-manager
+
+# How to Configure Detailed Error Pages for the FIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/2278.how-to-configure-detailed-error-pages-for-the-fim-portal
+
+# FIM Powershell: Show number of Sets which a User Is Member Of
+https://learn.microsoft.com/en-us/archive/technet-wiki/22814.fim-powershell-show-number-of-sets-which-a-user-is-member-of
+
+# How to create a FIM Synchronization Service custom attribute
+https://learn.microsoft.com/en-us/archive/technet-wiki/22881.how-to-create-a-fim-synchronization-service-custom-attribute
+
+# FIM 2010: How to prepare Management Agent Run Profile Script to be used in Scheduled Task
+https://learn.microsoft.com/en-us/archive/technet-wiki/22882.fim-2010-how-to-prepare-management-agent-run-profile-script-to-be-used-in-scheduled-task
+
+# Demystify Kerberos setup with FIM 2010 R2 with SSPR
+https://learn.microsoft.com/en-us/archive/technet-wiki/22953.demystify-kerberos-setup-with-fim-2010-r2-with-sspr
+
+# FIM/MIM: How to Develop and Publish a Troubleshooting Article
+https://learn.microsoft.com/en-us/archive/technet-wiki/2298.fimmim-how-to-develop-and-publish-a-troubleshooting-article
+
+# Forefront Identity Management FIM CM Permission Model Examples
+https://learn.microsoft.com/en-us/archive/technet-wiki/22990.forefront-identity-management-fim-cm-permission-model-examples
+
+# What FIM CM all about?
+https://learn.microsoft.com/en-us/archive/technet-wiki/22991.what-fim-cm-all-about
+
+# How to Use PowerShell to Start FIM Run Profiles
+https://learn.microsoft.com/en-us/archive/technet-wiki/2317.how-to-use-powershell-to-start-fim-run-profiles
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Table of contents
+https://learn.microsoft.com/en-us/archive/technet-wiki/23229.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-table-of-contents
+
+# FIM 2010 R2 BHold: How to create and use Supervisor Role
+https://learn.microsoft.com/en-us/archive/technet-wiki/23310.fim-2010-r2-bhold-how-to-create-and-use-supervisor-role
+
+# How to Use PowerShell to Delete FIM Users That Have a Null &lt;attribute name&gt;
+https://learn.microsoft.com/en-us/archive/technet-wiki/23570.how-to-use-powershell-to-delete-fim-users-that-have-a-null-attribute-name
+
+# FIM: How to map the AD user UserAccountControl attribute to FIM Metaverse
+https://learn.microsoft.com/en-us/archive/technet-wiki/23579.fim-how-to-map-the-ad-user-useraccountcontrol-attribute-to-fim-metaverse
+
+# Understanding FIM Service Partitions
+https://learn.microsoft.com/en-us/archive/technet-wiki/2363.understanding-fim-service-partitions
+
+# Windows PowerShell Connector for FIM 2010 R2 Sample Connector Collection
+https://learn.microsoft.com/en-us/archive/technet-wiki/23647.windows-powershell-connector-for-fim-2010-r2-sample-connector-collection
+
+# FIM 2010 R2 PowerShell Connector: Flat File Sample Connector
+https://learn.microsoft.com/en-us/archive/technet-wiki/23648.fim-2010-r2-powershell-connector-flat-file-sample-connector
+
+# FIM 2010 R2 BHold: Non-BHOLD Approval Process
+https://learn.microsoft.com/en-us/archive/technet-wiki/23814.fim-2010-r2-bhold-non-bhold-approval-process
+
+# Office365 Cloud Group Membership Management with Windows PowerShell Connector for FIM 2010 R2
+https://learn.microsoft.com/en-us/archive/technet-wiki/23925.office365-cloud-group-membership-management-with-windows-powershell-connector-for-fim-2010-r2
+
+# FIM Service Tracing in FIM 2010 R2
+https://learn.microsoft.com/en-us/archive/technet-wiki/24065.fim-service-tracing-in-fim-2010-r2
+
+# Windows PowerShell Connector for FIM 2010 R2 xADSyncPSConnectorModule Sample Module
+https://learn.microsoft.com/en-us/archive/technet-wiki/24182.windows-powershell-connector-for-fim-2010-r2-xadsyncpsconnectormodule-sample-module
+
+# Identity Manager (FIM/MIM): Planning Disaster recovery
+https://learn.microsoft.com/en-us/archive/technet-wiki/24363.identity-manager-fimmim-planning-disaster-recovery
+
+# FIM2010 R2 on Windows 2012: Installing Oracle MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/24509.fim2010-r2-on-windows-2012-installing-oracle-ma
+
+# FIM Troubleshooting: SSPR Registration Error 3008 - An error occurred while receiving the HTTP response
+https://learn.microsoft.com/en-us/archive/technet-wiki/24629.fim-troubleshooting-sspr-registration-error-3008-an-error-occurred-while-receiving-the-http-response
+
+# How to License FIM 2010 and MIM 2016
+https://learn.microsoft.com/en-us/archive/technet-wiki/2487.how-to-license-fim-2010-and-mim-2016
+
+# FIM 2010: Practical Alternative to PeopleSoft WebServices MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/24983.fim-2010-practical-alternative-to-peoplesoft-webservices-ma
+
+# FIM : PowerShell to add user to multiple Groups from CSV file
+https://learn.microsoft.com/en-us/archive/technet-wiki/25005.fim-powershell-to-add-user-to-multiple-groups-from-csv-file
+
+# FIM 2010 R2: Review pending export changes to Active Directory using XSLT
+https://learn.microsoft.com/en-us/archive/technet-wiki/25043.fim-2010-r2-review-pending-export-changes-to-active-directory-using-xslt
+
+# FIM: PowerShell to find manager detail of User.
+https://learn.microsoft.com/en-us/archive/technet-wiki/25115.fim-powershell-to-find-manager-detail-of-user
+
+# Deleting orphaned FIM MA CS objects
+https://learn.microsoft.com/en-us/archive/technet-wiki/25249.deleting-orphaned-fim-ma-cs-objects
+
+# FIM 2010 R2: Metaverse Attribute Flow Precedence and dealing with Blank values
+https://learn.microsoft.com/en-us/archive/technet-wiki/26099.fim-2010-r2-metaverse-attribute-flow-precedence-and-dealing-with-blank-values
+
+# Troubleshooting: The FIM Service Will Not Start
+https://learn.microsoft.com/en-us/archive/technet-wiki/26624.troubleshooting-the-fim-service-will-not-start
+
+# FIM : Group Membership Export GUI with Powershell
+https://learn.microsoft.com/en-us/archive/technet-wiki/26674.fim-group-membership-export-gui-with-powershell
+
+# FIM 2010 R2: Provisioning Coexisting Exchange using PowerShell MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/26935.fim-2010-r2-provisioning-coexisting-exchange-using-powershell-ma
+
+# FIM Password Synchronization (PCNS) Resource Wiki
+https://learn.microsoft.com/en-us/archive/technet-wiki/2762.fim-password-synchronization-pcns-resource-wiki
+
+# SharePoint 2010 Troubleshooting: Forefront Identity Manager Stops after servers are rebooted
+https://learn.microsoft.com/en-us/archive/technet-wiki/27665.sharepoint-2010-troubleshooting-forefront-identity-manager-stops-after-servers-are-rebooted
+
+# FIM 2010: Event Driven Run Profile Scheduling using a Windows Service
+https://learn.microsoft.com/en-us/archive/technet-wiki/28009.fim-2010-event-driven-run-profile-scheduling-using-a-windows-service
+
+# How to extend FIM GALSync solution with additional contact sources
+https://learn.microsoft.com/en-us/archive/technet-wiki/28650.how-to-extend-fim-galsync-solution-with-additional-contact-sources
+
+# Microsoft Identity Manager 2016 Resources
+https://learn.microsoft.com/en-us/archive/technet-wiki/28754.microsoft-identity-manager-2016-resources
+
+# FIM2010: Eliminating equal precedence
+https://learn.microsoft.com/en-us/archive/technet-wiki/28878.fim2010-eliminating-equal-precedence
+
+# FIM 2010: How to configure (Hardware) Load Balancer
+https://learn.microsoft.com/en-us/archive/technet-wiki/29186.fim-2010-how-to-configure-hardware-load-balancer
+
+# How to Use PowerShell to Add a Member to a Group in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/2930.how-to-use-powershell-to-add-a-member-to-a-group-in-fim
+
+# How to Use PowerShell to bulk load AD LDS groups and their membership into FIM using LDAP queries
+https://learn.microsoft.com/en-us/archive/technet-wiki/29676.how-to-use-powershell-to-bulk-load-ad-lds-groups-and-their-membership-into-fim-using-ldap-queries
+
+# FIM 2010: SSPR with one-way trust
+https://learn.microsoft.com/en-us/archive/technet-wiki/29701.fim-2010-sspr-with-one-way-trust
+
+# FIM 2010: How to keep previous attribute value(s) in Metaverse
+https://learn.microsoft.com/en-us/archive/technet-wiki/29783.fim-2010-how-to-keep-previous-attribute-value-s-in-metaverse
+
+# FIM 2010 Troubleshooting: Your request could not be processed in the allowed timeframe.
+https://learn.microsoft.com/en-us/archive/technet-wiki/29831.fim-2010-troubleshooting-your-request-could-not-be-processed-in-the-allowed-timeframe
+
+# FIM2010 Troubleshooting: The FIM Database is growing too large and we're running out of disk space
+https://learn.microsoft.com/en-us/archive/technet-wiki/30031.fim2010-troubleshooting-the-fim-database-is-growing-too-large-and-we-re-running-out-of-disk-space
+
+# FIM 2010: Filter objects on export
+https://learn.microsoft.com/en-us/archive/technet-wiki/30070.fim-2010-filter-objects-on-export
+
+# FIM 2010: Planning maintenance operations
+https://learn.microsoft.com/en-us/archive/technet-wiki/30097.fim-2010-planning-maintenance-operations
+
+# FIM 2010 SQL Database Tables
+https://learn.microsoft.com/en-us/archive/technet-wiki/30162.fim-2010-sql-database-tables
+
+# FIM 2010: Protect passwords in configuration files
+https://learn.microsoft.com/en-us/archive/technet-wiki/30245.fim-2010-protect-passwords-in-configuration-files
+
+# FIM 2010: The Ultimate Tools for RCDC
+https://learn.microsoft.com/en-us/archive/technet-wiki/30266.fim-2010-the-ultimate-tools-for-rcdc
+
+# FIM 2010 SQL Synchronization Service Database Tables
+https://learn.microsoft.com/en-us/archive/technet-wiki/30525.fim-2010-sql-synchronization-service-database-tables
+
+# FIM 2010: Best Practices - Notes from the field
+https://learn.microsoft.com/en-us/archive/technet-wiki/30888.fim-2010-best-practices-notes-from-the-field
+
+# FIM 2010 Troubleshooting: FIM MA does not support the current FIM Resource Management Service DB version
+https://learn.microsoft.com/en-us/archive/technet-wiki/31018.fim-2010-troubleshooting-fim-ma-does-not-support-the-current-fim-resource-management-service-db-version
+
+# MIM 2016: PAM integration with existing Active Directory domains
+https://learn.microsoft.com/en-us/archive/technet-wiki/31304.mim-2016-pam-integration-with-existing-active-directory-domains
+
+# FIM2010: Pre-Register Users for SSPR on OTP (Email/SMS)
+https://learn.microsoft.com/en-us/archive/technet-wiki/31309.fim2010-pre-register-users-for-sspr-on-otp-emailsms
+
+# FIM 2010 Troubleshooting: Set filter definitions failing with negative condition
+https://learn.microsoft.com/en-us/archive/technet-wiki/31393.fim-2010-troubleshooting-set-filter-definitions-failing-with-negative-condition
+
+# FIM 2010 Troubleshooting: Default RCDCs Not Recognized After Replacement through FIM Service Configuration Migration
+https://learn.microsoft.com/en-us/archive/technet-wiki/31428.fim-2010-troubleshooting-default-rcdcs-not-recognized-after-replacement-through-fim-service-configuration-migration
+
+# FIM2010: Writing Advanced Attribute Flows
+https://learn.microsoft.com/en-us/archive/technet-wiki/31595.fim2010-writing-advanced-attribute-flows
+
+# FIM 2010: Programmatic access to FIM Service with Lithnet FIM Service Client library
+https://learn.microsoft.com/en-us/archive/technet-wiki/32015.fim-2010-programmatic-access-to-fim-service-with-lithnet-fim-service-client-library
+
+# FIM 2010: Cut down on your PowerShell code with the Lithnet FIM Service PowerShell module
+https://learn.microsoft.com/en-us/archive/technet-wiki/32016.fim-2010-cut-down-on-your-powershell-code-with-the-lithnet-fim-service-powershell-module
+
+# Getting started with the Lithnet FIM Service REST API
+https://learn.microsoft.com/en-us/archive/technet-wiki/32033.getting-started-with-the-lithnet-fim-service-rest-api
+
+# FIM2010: How to Run Management Agent via XML Source with PowerShell
+https://learn.microsoft.com/en-us/archive/technet-wiki/32058.fim2010-how-to-run-management-agent-via-xml-source-with-powershell
+
+# Take the guess work out of XPath with the Lithnet FIM Service PowerShell Module
+https://learn.microsoft.com/en-us/archive/technet-wiki/32148.take-the-guess-work-out-of-xpath-with-the-lithnet-fim-service-powershell-module
+
+# FIM 2010: Verifying the Sync Engine Security Groups
+https://learn.microsoft.com/en-us/archive/technet-wiki/32193.fim-2010-verifying-the-sync-engine-security-groups
+
+# FIM 2010 Automatic Group Management by importing XPATH Filters
+https://learn.microsoft.com/en-us/archive/technet-wiki/32312.fim-2010-automatic-group-management-by-importing-xpath-filters
+
+# FIM2010: FIM Service PowerShell Module
+https://learn.microsoft.com/en-us/archive/technet-wiki/32347.fim2010-fim-service-powershell-module
+
+# FIM2010: Localize Self Service Password Reset
+https://learn.microsoft.com/en-us/archive/technet-wiki/32348.fim2010-localize-self-service-password-reset
+
+# FIM 2010 Reference: Unattended installation
+https://learn.microsoft.com/en-us/archive/technet-wiki/32506.fim-2010-reference-unattended-installation
+
+# MIM 2016 Build Overview
+https://learn.microsoft.com/en-us/archive/technet-wiki/32507.mim-2016-build-overview
+
+# FIM 2010: Providing confirming imports to the sync engine when your target system doesnÔÇÖt support delta imports
+https://learn.microsoft.com/en-us/archive/technet-wiki/32517.fim-2010-providing-confirming-imports-to-the-sync-engine-when-your-target-system-doesnt-support-delta-imports
+
+# How to Use PowerShell to Set the Required Attributes for the FIM Portal Access
+https://learn.microsoft.com/en-us/archive/technet-wiki/329.how-to-use-powershell-to-set-the-required-attributes-for-the-fim-portal-access
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 2. Security principles
+https://learn.microsoft.com/en-us/archive/technet-wiki/32964.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-2-security-principles
+
+# FIM 2010 Powershell: Reporting on Duplicates and Permissions
+https://learn.microsoft.com/en-us/archive/technet-wiki/32973.fim-2010-powershell-reporting-on-duplicates-and-permissions
+
+# FIM2010: How to Configure the ADMA Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/330.fim2010-how-to-configure-the-adma-account
+
+# FIM2010 Troubleshooting: examining Outbound System Scoping Filter Syntax
+https://learn.microsoft.com/en-us/archive/technet-wiki/33053.fim2010-troubleshooting-examining-outbound-system-scoping-filter-syntax
+
+# FIM 2010: How to Use PowerShell to Create a CSV of FIM/MIM Metaverse Connections
+https://learn.microsoft.com/en-us/archive/technet-wiki/33055.fim-2010-how-to-use-powershell-to-create-a-csv-of-fimmim-metaverse-connections
+
+# Understanding Reference Attributes Processing in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/331.understanding-reference-attributes-processing-in-fim
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 6. References &amp; authoritative resources
+https://learn.microsoft.com/en-us/archive/technet-wiki/33177.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-6-references-authoritative-resources
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 1. Introduction
+https://learn.microsoft.com/en-us/archive/technet-wiki/33178.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-1-introduction
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 7. Additional resources
+https://learn.microsoft.com/en-us/archive/technet-wiki/33182.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-7-additional-resources
+
+# How to Detect Connectors in FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/332.how-to-detect-connectors-in-fim
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 3. Compact Checklist
+https://learn.microsoft.com/en-us/archive/technet-wiki/33212.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-3-compact-checklist
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 5. Operational Best Practices
+https://learn.microsoft.com/en-us/archive/technet-wiki/33213.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-5-operational-best-practices
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 4. Detailed Description
+https://learn.microsoft.com/en-us/archive/technet-wiki/33214.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-4-detailed-description
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 8. Glossary
+https://learn.microsoft.com/en-us/archive/technet-wiki/33215.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-8-glossary
+
+# FIM2010 &amp; MIM2016 Licensing: clarification on the requirement to use CALs
+https://learn.microsoft.com/en-us/archive/technet-wiki/33272.fim2010-mim2016-licensing-clarification-on-the-requirement-to-use-cals
+
+# How to Enable or Disable Accounts in Active Directory Domain Service Using FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/333.how-to-enable-or-disable-accounts-in-active-directory-domain-service-using-fim
+
+# MIM 2016: Privileged Access Management (PAM) - FAQ
+https://learn.microsoft.com/en-us/archive/technet-wiki/33363.mim-2016-privileged-access-management-pam-faq
+
+# MIM/FIM Troubleshooting: FIM Sync service terminated with service-specific error %%-2146234334 (MIISActivate)
+https://learn.microsoft.com/en-us/archive/technet-wiki/33382.mimfim-troubleshooting-fim-sync-service-terminated-with-service-specific-error-2146234334-miisactivate
+
+# FIM Troubleshooting
+https://learn.microsoft.com/en-us/archive/technet-wiki/334.fim-troubleshooting
+
+# FIM 2010: How to Manage the FIM MA Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/335.fim-2010-how-to-manage-the-fim-ma-account
+
+# Identity Manager (FIM/MIM): Planning security setup for accounts, groups and services - Part 9. Release Schedule
+https://learn.microsoft.com/en-us/archive/technet-wiki/33512.identity-manager-fimmim-planning-security-setup-for-accounts-groups-and-services-part-9-release-schedule
+
+# FIM2010: Selective Import Attribute Flow
+https://learn.microsoft.com/en-us/archive/technet-wiki/33536.fim2010-selective-import-attribute-flow
+
+# FIM/MIM Troubleshooting: Failed-Modification-Via-Web-Services
+https://learn.microsoft.com/en-us/archive/technet-wiki/336.fimmim-troubleshooting-failed-modification-via-web-services
+
+# FIM/MIM: Resources for starters
+https://learn.microsoft.com/en-us/archive/technet-wiki/33620.fimmim-resources-for-starters
+
+# DirSync: Trigger execution through FIM Worfklow
+https://learn.microsoft.com/en-us/archive/technet-wiki/33621.dirsync-trigger-execution-through-fim-worfklow
+
+# SharePoint 2016: User profile Service Step by Step: Installation of MIM 2016
+https://learn.microsoft.com/en-us/archive/technet-wiki/33698.sharepoint-2016-user-profile-service-step-by-step-installation-of-mim-2016
+
+# SharePoint 2016 User Profile Service Step by Step: Configuration of MIM 2016
+https://learn.microsoft.com/en-us/archive/technet-wiki/33745.sharepoint-2016-user-profile-service-step-by-step-configuration-of-mim-2016
+
+# Error during the installation of SharePoint Server Configuration File (User Profile service &amp; MIM)
+https://learn.microsoft.com/en-us/archive/technet-wiki/33816.error-during-the-installation-of-sharepoint-server-configuration-file-user-profile-service-mim
+
+# SharePoint 2016 User Profile Service and MIM: Apply the Connection Filter
+https://learn.microsoft.com/en-us/archive/technet-wiki/33819.sharepoint-2016-user-profile-service-and-mim-apply-the-connection-filter
+
+# FIM 2010: Kerberos Authentication Setup
+https://learn.microsoft.com/en-us/archive/technet-wiki/3385.fim-2010-kerberos-authentication-setup
+
+# MIM 2016 with SharePoint 2016 User Profile Service: Import Custom Property from Active Directory
+https://learn.microsoft.com/en-us/archive/technet-wiki/33855.mim-2016-with-sharepoint-2016-user-profile-service-import-custom-property-from-active-directory
+
+# SharePoint Server 2016 with MIM User profile Sync: Add more Active Directory Domain for Synchronization
+https://learn.microsoft.com/en-us/archive/technet-wiki/33867.sharepoint-server-2016-with-mim-user-profile-sync-add-more-active-directory-domain-for-synchronization
+
+# Sharepoint 2016 with MIM 2016 - Get-WmiObject: Generic failure
+https://learn.microsoft.com/en-us/archive/technet-wiki/33876.sharepoint-2016-with-mim-2016-get-wmiobject-generic-failure
+
+# Sharepoint 2016 with MIM 2016: Start-SharePointSync : The term 'Start-SharePointSync' is not recognized as the name of a cmdlet
+https://learn.microsoft.com/en-us/archive/technet-wiki/33904.sharepoint-2016-with-mim-2016-start-sharepointsync-the-term-start-sharepointsync-is-not-recognized-as-the-name-of-a-cmdlet
+
+# FIM 2010 / MIM 2016: Managing Contacts in the Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/34178.fim-2010-mim-2016-managing-contacts-in-the-portal
+
+# FIM 2010 &amp; MIM 2016: Run profile statistics with SQL and Excel Pivot Tables
+https://learn.microsoft.com/en-us/archive/technet-wiki/34396.fim-2010-mim-2016-run-profile-statistics-with-sql-and-excel-pivot-tables
+
+# FIM2010 / MIM2016: Run profile statistics with PowerShell and Excel Pivot Tables
+https://learn.microsoft.com/en-us/archive/technet-wiki/34402.fim2010-mim2016-run-profile-statistics-with-powershell-and-excel-pivot-tables
+
+# FIM: How to Acquire the Microsoft Exchange Server 2010 Client Access Server (CAS Server) Information for Microsoft Exchange Server 2010 Provisioning
+https://learn.microsoft.com/en-us/archive/technet-wiki/3456.fim-how-to-acquire-the-microsoft-exchange-server-2010-client-access-server-cas-server-information-for-microsoft-exchange-server-2010-provisioning
+
+# FIM: How to export to an Exchange 2007 Server with Synchronization Server in an Exchange 2010 Domain
+https://learn.microsoft.com/en-us/archive/technet-wiki/3457.fim-how-to-export-to-an-exchange-2007-server-with-synchronization-server-in-an-exchange-2010-domain
+
+# FIM 2010 (and R2) and FIM 2010 Certificate Management Test Labs
+https://learn.microsoft.com/en-us/archive/technet-wiki/3471.fim-2010-and-r2-and-fim-2010-certificate-management-test-labs
+
+# Experiences with the Forefront Identity Manager 2010 and Forefront Identity Manager 2010 Certificate Management Test Labs
+https://learn.microsoft.com/en-us/archive/technet-wiki/3472.experiences-with-the-forefront-identity-manager-2010-and-forefront-identity-manager-2010-certificate-management-test-labs
+
+# FIM GalSync Troubleshooting: Object is read only because it was created by a future version of Exchange
+https://learn.microsoft.com/en-us/archive/technet-wiki/3476.fim-galsync-troubleshooting-object-is-read-only-because-it-was-created-by-a-future-version-of-exchange
+
+# Microsoft Identity Manager 2016 Handbook: Online Companion Guide
+https://learn.microsoft.com/en-us/archive/technet-wiki/34993.microsoft-identity-manager-2016-handbook-online-companion-guide
+
+# Microsoft Identity Manager 2016 Schema
+https://learn.microsoft.com/en-us/archive/technet-wiki/35005.microsoft-identity-manager-2016-schema
+
+# FIM 2010 : ECMA 2.0 Connector XML
+https://learn.microsoft.com/en-us/archive/technet-wiki/35182.fim-2010-ecma-2-0-connector-xml
+
+# MIM2016 Troubleshooting: MIM Portal Performance Issue
+https://learn.microsoft.com/en-us/archive/technet-wiki/35466.mim2016-troubleshooting-mim-portal-performance-issue
+
+# FIM2010 / MIM2016: How to use PowerShell to List the Sets in which a Portal user is a member
+https://learn.microsoft.com/en-us/archive/technet-wiki/35530.fim2010-mim2016-how-to-use-powershell-to-list-the-sets-in-which-a-portal-user-is-a-member
+
+# MIM Troubleshooting: Sync engine installation failure - error 25009 &lt;hr=0x80131700&gt;
+https://learn.microsoft.com/en-us/archive/technet-wiki/35636.mim-troubleshooting-sync-engine-installation-failure-error-25009-hr-0x80131700
+
+# MIM Troubleshooting: Upgrade from ILM fails with error 25009 (&lt;hr=0x80230406&gt;)
+https://learn.microsoft.com/en-us/archive/technet-wiki/35637.mim-troubleshooting-upgrade-from-ilm-fails-with-error-25009-hr-0x80230406
+
+# FIM/MIM: Enabling Access to Security Groups in Portal for All Users
+https://learn.microsoft.com/en-us/archive/technet-wiki/35640.fimmim-enabling-access-to-security-groups-in-portal-for-all-users
+
+# FIM 2010 Archive: Ramp Up - Implementing Forefront Identity Manager 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/35789.fim-2010-archive-ramp-up-implementing-forefront-identity-manager-2010
+
+# FIM 2010 Troubleshooting: Error 1920 - FIMPasswordReset failed to start
+https://learn.microsoft.com/en-us/archive/technet-wiki/3586.fim-2010-troubleshooting-error-1920-fimpasswordreset-failed-to-start
+
+# MIM 2016 Troubleshooting: FIM MA Full import error 0x80070002
+https://learn.microsoft.com/en-us/archive/technet-wiki/36008.mim-2016-troubleshooting-fim-ma-full-import-error-0x80070002
+
+# FIM 2010 / MIM 2016: Localizing SSPR Registration Questions
+https://learn.microsoft.com/en-us/archive/technet-wiki/36035.fim-2010-mim-2016-localizing-sspr-registration-questions
+
+# FIM 2010 &amp; MIM 2016: Planning security setup for accounts, groups and services - Appendix B (Compact Check List)
+https://learn.microsoft.com/en-us/archive/technet-wiki/36040.fim-2010-mim-2016-planning-security-setup-for-accounts-groups-and-services-appendix-b-compact-check-list
+
+# MIM 2016: RCDC Management with PowerShell
+https://learn.microsoft.com/en-us/archive/technet-wiki/36120.mim-2016-rcdc-management-with-powershell
+
+# How to Use PowerShell to Fix an ObjectSID on an FIM Portal Object
+https://learn.microsoft.com/en-us/archive/technet-wiki/3614.how-to-use-powershell-to-fix-an-objectsid-on-an-fim-portal-object
+
+# FIM2010 Troubleshooting: Stopped extension dll load - EventID 6300
+https://learn.microsoft.com/en-us/archive/technet-wiki/36380.fim2010-troubleshooting-stopped-extension-dll-load-eventid-6300
+
+# MIM 2016: Inside the SP1 Update
+https://learn.microsoft.com/en-us/archive/technet-wiki/36385.mim-2016-inside-the-sp1-update
+
+# FIM 2010 / MIM 2016 Troubleshooting: The requestor's identity was not found.
+https://learn.microsoft.com/en-us/archive/technet-wiki/36399.fim-2010-mim-2016-troubleshooting-the-requestor-s-identity-was-not-found
+
+# SharePoint: Monitor UPS Service using FIM Client in SharePoint Synchronization Server
+https://learn.microsoft.com/en-us/archive/technet-wiki/36602.sharepoint-monitor-ups-service-using-fim-client-in-sharepoint-synchronization-server
+
+# FIM/MIM Troubleshooting: synchronization service does not start and "computer_id in the database does not match this computer" error
+https://learn.microsoft.com/en-us/archive/technet-wiki/36920.fimmim-troubleshooting-synchronization-service-does-not-start-and-computer-id-in-the-database-does-not-match-this-computer-error
+
+# Install And Configure Microsoft Identity Manager 2016 SP1 For SharePoint Server 2016
+https://learn.microsoft.com/en-us/archive/technet-wiki/37525.install-and-configure-microsoft-identity-manager-2016-sp1-for-sharepoint-server-2016
+
+# FIM2010: PCNS Password Verification Change Request Process
+https://learn.microsoft.com/en-us/archive/technet-wiki/37535.fim2010-pcns-password-verification-change-request-process
+
+# MIM 2016 Troubleshooting: Unable to run the Management Agent (Error: 0x8023063d)
+https://learn.microsoft.com/en-us/archive/technet-wiki/37758.mim-2016-troubleshooting-unable-to-run-the-management-agent-error-0x8023063d
+
+# SharePoint 2016 Synchronization Troubleshooting: Resolve issues while starting MIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/37955.sharepoint-2016-synchronization-troubleshooting-resolve-issues-while-starting-mim
+
+# MIM2016 MIMWAL: Create workflow for changing e-mail address
+https://learn.microsoft.com/en-us/archive/technet-wiki/37997.mim2016-mimwal-create-workflow-for-changing-e-mail-address
+
+# MIM 2016: Anti-Virus Exclusion Considerations
+https://learn.microsoft.com/en-us/archive/technet-wiki/38128.mim-2016-anti-virus-exclusion-considerations
+
+# FIM 2010: How to migrate FIM backend database to new SQL Server
+https://learn.microsoft.com/en-us/archive/technet-wiki/3876.fim-2010-how-to-migrate-fim-backend-database-to-new-sql-server
+
+# MIM 2016: Configure SAP Web Service Connector with Certificate-based Authentication
+https://learn.microsoft.com/en-us/archive/technet-wiki/38920.mim-2016-configure-sap-web-service-connector-with-certificate-based-authentication
+
+# FIM Data Modelling and Sync Design: Reference Attributes Versus String Attributes
+https://learn.microsoft.com/en-us/archive/technet-wiki/3945.fim-data-modelling-and-sync-design-reference-attributes-versus-string-attributes
+
+# FIM 2010: Use Sets and Groups as Enterprise RBAC System
+https://learn.microsoft.com/en-us/archive/technet-wiki/3982.fim-2010-use-sets-and-groups-as-enterprise-rbac-system
+
+# How to Use PowerShell as an FIM Function Library
+https://learn.microsoft.com/en-us/archive/technet-wiki/3985.how-to-use-powershell-as-an-fim-function-library
+
+# Forefront Identity Manager Resources
+https://learn.microsoft.com/en-us/archive/technet-wiki/399.forefront-identity-manager-resources
+
+# MIM PAM: New-PAMGroup : The pointer for this method was null
+https://learn.microsoft.com/en-us/archive/technet-wiki/40110.mim-pam-new-pamgroup-the-pointer-for-this-method-was-null
+
+# FIM2010 Troubleshooting: Service Not Available - The Portal cannot connect to the middle tier using the web service interface
+https://learn.microsoft.com/en-us/archive/technet-wiki/4066.fim2010-troubleshooting-service-not-available-the-portal-cannot-connect-to-the-middle-tier-using-the-web-service-interface
+
+# FIM Synchronization Rules: Dropdowns Contain No Data or Missing Data
+https://learn.microsoft.com/en-us/archive/technet-wiki/4068.fim-synchronization-rules-dropdowns-contain-no-data-or-missing-data
+
+# FIM/MIM Troubleshooting: ExternalEmailAddress Is Mandatory on MailUser. Property Name: ExternalEmailAddress
+https://learn.microsoft.com/en-us/archive/technet-wiki/4076.fimmim-troubleshooting-externalemailaddress-is-mandatory-on-mailuser-property-name-externalemailaddress
+
+# FIM SSPR Troubleshooting: Password Reset Registration - "An error was encountered. Please call helpdesk or your system."
+https://learn.microsoft.com/en-us/archive/technet-wiki/4113.fim-sspr-troubleshooting-password-reset-registration-an-error-was-encountered-please-call-helpdesk-or-your-system
+
+# FIM 2010 R2: Kerberos Authentication Setup
+https://learn.microsoft.com/en-us/archive/technet-wiki/4118.fim-2010-r2-kerberos-authentication-setup
+
+# FIM Troubleshooting: Installation Hot Fix Update Rolls Back Without Warning or Error / (SolutionPackUtility)
+https://learn.microsoft.com/en-us/archive/technet-wiki/4152.fim-troubleshooting-installation-hot-fix-update-rolls-back-without-warning-or-error-solutionpackutility
+
+# FIM CM: "There is no such object on the server"
+https://learn.microsoft.com/en-us/archive/technet-wiki/4166.fim-cm-there-is-no-such-object-on-the-server
+
+# Best Practices for the FIM Portal Administrator Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/4170.best-practices-for-the-fim-portal-administrator-account
+
+# How to Generate Customized FIM 2010 CM Reports Automatically
+https://learn.microsoft.com/en-us/archive/technet-wiki/4188.how-to-generate-customized-fim-2010-cm-reports-automatically
+
+# FIM Reference: Things to Look at before Deleting a Connector Space
+https://learn.microsoft.com/en-us/archive/technet-wiki/4189.fim-reference-things-to-look-at-before-deleting-a-connector-space
+
+# FIM 2010: How to delete Management Agent and Connector Space
+https://learn.microsoft.com/en-us/archive/technet-wiki/4191.fim-2010-how-to-delete-management-agent-and-connector-space
+
+# FIM Service Management Agent: Deleting the Connector Space
+https://learn.microsoft.com/en-us/archive/technet-wiki/4195.fim-service-management-agent-deleting-the-connector-space
+
+# FIM Synchronization Service Troubleshooting: Crashing on Full Import (Stage Only)
+https://learn.microsoft.com/en-us/archive/technet-wiki/4196.fim-synchronization-service-troubleshooting-crashing-on-full-import-stage-only
+
+# FIM Reference: Migrating from MIIS or ILM to FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/4268.fim-reference-migrating-from-miis-or-ilm-to-fim-2010
+
+# FIM2010 Reference: What Version of SQL Server to Use on the FIM Backend
+https://learn.microsoft.com/en-us/archive/technet-wiki/4270.fim2010-reference-what-version-of-sql-server-to-use-on-the-fim-backend
+
+# FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/4363.fim-2010
+
+# FIM 2010 / MIM 2016: About Attribute Flow Precedence
+https://learn.microsoft.com/en-us/archive/technet-wiki/44237.fim-2010-mim-2016-about-attribute-flow-precedence
+
+# FIM CM Troubleshooting: Object reference not set to an instance of an object
+https://learn.microsoft.com/en-us/archive/technet-wiki/4472.fim-cm-troubleshooting-object-reference-not-set-to-an-instance-of-an-object
+
+# FIM2010/MIM2016: How to refresh the schema of the FIM Service Management Agent
+https://learn.microsoft.com/en-us/archive/technet-wiki/4624.fim2010mim2016-how-to-refresh-the-schema-of-the-fim-service-management-agent
+
+# FIM 2010 Hotfix installation - Documentation of the MSP files
+https://learn.microsoft.com/en-us/archive/technet-wiki/4625.fim-2010-hotfix-installation-documentation-of-the-msp-files
+
+# MIM Synchronization Troubleshooting: Event ID 6301: export-flow failed 0x80230304
+https://learn.microsoft.com/en-us/archive/technet-wiki/4965.mim-synchronization-troubleshooting-event-id-6301-export-flow-failed-0x80230304
+
+# MIM PAM: New-PAMGroup: Unable to create shadow group - the server cannot handle directory requests
+https://learn.microsoft.com/en-us/archive/technet-wiki/50904.mim-pam-new-pamgroup-unable-to-create-shadow-group-the-server-cannot-handle-directory-requests
+
+# MIM 2016 Service and Portal Troubleshooting: Hotfix installation failure (Unauthorized operation)
+https://learn.microsoft.com/en-us/archive/technet-wiki/51060.mim-2016-service-and-portal-troubleshooting-hotfix-installation-failure-unauthorized-operation
+
+# MIM 2016 Service and Portal Troubleshooting: Hotfix installation failure (deployment or retraction is already under way)
+https://learn.microsoft.com/en-us/archive/technet-wiki/51098.mim-2016-service-and-portal-troubleshooting-hotfix-installation-failure-deployment-or-retraction-is-already-under-way
+
+# MIM 2016 Troubleshooting: no-start-bad-ma-configuration
+https://learn.microsoft.com/en-us/archive/technet-wiki/51257.mim-2016-troubleshooting-no-start-bad-ma-configuration
+
+# MIM 2016 Troubleshooting: SQL Connection issues
+https://learn.microsoft.com/en-us/archive/technet-wiki/51399.mim-2016-troubleshooting-sql-connection-issues
+
+# FIM Reference: Checking / Configuring Attribute Precedence
+https://learn.microsoft.com/en-us/archive/technet-wiki/5140.fim-reference-checking-configuring-attribute-precedence
+
+# FIM/MIM Troubleshooting: ADMA Export error - There is not enough space on the disk
+https://learn.microsoft.com/en-us/archive/technet-wiki/51700.fimmim-troubleshooting-adma-export-error-there-is-not-enough-space-on-the-disk
+
+# MIM 2016: finding &amp; removing orphaned users and groups in MIM Portal
+https://learn.microsoft.com/en-us/archive/technet-wiki/51710.mim-2016-finding-removing-orphaned-users-and-groups-in-mim-portal
+
+# FIM/MIM: Synchronize AD Group memberhip with FIM portal set
+https://learn.microsoft.com/en-us/archive/technet-wiki/51715.fimmim-synchronize-ad-group-memberhip-with-fim-portal-set
+
+# SharePoint Server 2019: Working with Microsoft Identity Manager 2016 SP1
+https://learn.microsoft.com/en-us/archive/technet-wiki/52444.sharepoint-server-2019-working-with-microsoft-identity-manager-2016-sp1
+
+# MIM 2016 Troubleshooting: The installation just hanging without error, warning, log, Event-log
+https://learn.microsoft.com/en-us/archive/technet-wiki/52594.mim-2016-troubleshooting-the-installation-just-hanging-without-error-warning-log-event-log
+
+# MIM 2016 Portal Troubleshooting: Deleting attribute value - NoFlowSingleton was not expected
+https://learn.microsoft.com/en-us/archive/technet-wiki/52701.mim-2016-portal-troubleshooting-deleting-attribute-value-noflowsingleton-was-not-expected
+
+# FIM Reference: Configuring Exchange 2010 Provisioning
+https://learn.microsoft.com/en-us/archive/technet-wiki/5318.fim-reference-configuring-exchange-2010-provisioning
+
+# FIM Reference: Configuring Exchange 2007 Provisioning
+https://learn.microsoft.com/en-us/archive/technet-wiki/5319.fim-reference-configuring-exchange-2007-provisioning
+
+# FIM Troubleshooting: ma-extension-error when exporting to Exchange 2007 or 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/5320.fim-troubleshooting-ma-extension-error-when-exporting-to-exchange-2007-or-2010
+
+# Identity Manager (FIM/MIM): Planning security for accounts, groups and services - Core account type differentiators (Part 10)
+https://learn.microsoft.com/en-us/archive/technet-wiki/53236.identity-manager-fimmim-planning-security-for-accounts-groups-and-services-core-account-type-differentiators-part-10
+
+# SharePoint Server 2019: Setting up Microsoft Identity Manager 2016 SP2
+https://learn.microsoft.com/en-us/archive/technet-wiki/53513.sharepoint-server-2019-setting-up-microsoft-identity-manager-2016-sp2
+
+# SharePoint 2019 : Resolve Missing Partition Setup error encountered during MIM Sync
+https://learn.microsoft.com/en-us/archive/technet-wiki/53651.sharepoint-2019-resolve-missing-partition-setup-error-encountered-during-mim-sync
+
+# MIM 2016 SP2 Troubleshooting: MIM2016 setup System Error MSVCR120.dll was not found
+https://learn.microsoft.com/en-us/archive/technet-wiki/54714.mim-2016-sp2-troubleshooting-mim2016-setup-system-error-msvcr120-dll-was-not-found
+
+# How to Automate the Rebuilding of FIM Full Text Indexes
+https://learn.microsoft.com/en-us/archive/technet-wiki/5701.how-to-automate-the-rebuilding-of-fim-full-text-indexes
+
+# FIM 2010: How to Validate Information Being Exported
+https://learn.microsoft.com/en-us/archive/technet-wiki/6258.fim-2010-how-to-validate-information-being-exported
+
+# How Do I Synchronize Users from Active Directory Domain Services to FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/648.how-do-i-synchronize-users-from-active-directory-domain-services-to-fim
+
+# How Do I Synchronize Groups from Active Directory Domain Services to FIM
+https://learn.microsoft.com/en-us/archive/technet-wiki/649.how-do-i-synchronize-groups-from-active-directory-domain-services-to-fim
+
+# Pre-Import Filtering of AD objects in FIM 2010 R2
+https://learn.microsoft.com/en-us/archive/technet-wiki/6600.pre-import-filtering-of-ad-objects-in-fim-2010-r2
+
+# FIM: How to reindex all of the tables in the backend FIMSynchronizationService Database
+https://learn.microsoft.com/en-us/archive/technet-wiki/6647.fim-how-to-reindex-all-of-the-tables-in-the-backend-fimsynchronizationservice-database
+
+# How to Use PowerShell to Troubleshoot FIM Query Issues
+https://learn.microsoft.com/en-us/archive/technet-wiki/6959.how-to-use-powershell-to-troubleshoot-fim-query-issues
+
+# FIM Synchronisation Troubleshooting: Novell eDirectory MA - Server Down
+https://learn.microsoft.com/en-us/archive/technet-wiki/7038.fim-synchronisation-troubleshooting-novell-edirectory-ma-server-down
+
+# FIM 2010 Troubleshooting: Error 25070 These workstations have sessions with open files on this server
+https://learn.microsoft.com/en-us/archive/technet-wiki/7214.fim-2010-troubleshooting-error-25070-these-workstations-have-sessions-with-open-files-on-this-server
+
+# FIM 2010 Installation Companion: Accounts
+https://learn.microsoft.com/en-us/archive/technet-wiki/7222.fim-2010-installation-companion-accounts
+
+# FIM 2010: How to validate FIM Service Management Agent Account
+https://learn.microsoft.com/en-us/archive/technet-wiki/7348.fim-2010-how-to-validate-fim-service-management-agent-account
+
+# FIM Troubleshooting: FIMMA export PermissionDeniedException
+https://learn.microsoft.com/en-us/archive/technet-wiki/7350.fim-troubleshooting-fimma-export-permissiondeniedexception
+
+# FIM 2010: Sharing GALs and Free/Busy Info between Exchange Orgs
+https://learn.microsoft.com/en-us/archive/technet-wiki/7377.fim-2010-sharing-gals-and-freebusy-info-between-exchange-orgs
+
+# FIM Sync Troubleshooting: MissingParentObjectException
+https://learn.microsoft.com/en-us/archive/technet-wiki/7514.fim-sync-troubleshooting-missingparentobjectexception
+
+# FIM Troubleshooting: Extension-DLL-Exception
+https://learn.microsoft.com/en-us/archive/technet-wiki/7515.fim-troubleshooting-extension-dll-exception
+
+# Troubleshooting the FIM Group Management Outlook 2007 Add-In
+https://learn.microsoft.com/en-us/archive/technet-wiki/762.troubleshooting-the-fim-group-management-outlook-2007-add-in
+
+# How to Use PowerShell to Export FIM Requests to a Database/File
+https://learn.microsoft.com/en-us/archive/technet-wiki/7880.how-to-use-powershell-to-export-fim-requests-to-a-databasefile
+
+# FIM Troubleshooting: Accessing the FIM Portal using a Sensitive Account (cannot be delegated)
+https://learn.microsoft.com/en-us/archive/technet-wiki/7890.fim-troubleshooting-accessing-the-fim-portal-using-a-sensitive-account-cannot-be-delegated
+
+# FIM Troubleshooting: stopped-dll-exception troubleshooter document
+https://learn.microsoft.com/en-us/archive/technet-wiki/8759.fim-troubleshooting-stopped-dll-exception-troubleshooter-document
+
+# Troubleshooting the Lotus Domino Connector for FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/8760.troubleshooting-the-lotus-domino-connector-for-fim-2010
+
+# FIM 2010 Troubleshooting: Update 2 Fails Immediately - DetectServiceAccount
+https://learn.microsoft.com/en-us/archive/technet-wiki/9059.fim-2010-troubleshooting-update-2-fails-immediately-detectserviceaccount
+
+# FIM Troubleshooting: Failed to retrieve schema or cannot connect to database while creating a FIM MA
+https://learn.microsoft.com/en-us/archive/technet-wiki/9112.fim-troubleshooting-failed-to-retrieve-schema-or-cannot-connect-to-database-while-creating-a-fim-ma
+
+# Using the FIM CM 2010 Notification API
+https://learn.microsoft.com/en-us/archive/technet-wiki/9353.using-the-fim-cm-2010-notification-api
+
+# How to use a FIM run profile to export to a drop file
+https://learn.microsoft.com/en-us/archive/technet-wiki/9534.how-to-use-a-fim-run-profile-to-export-to-a-drop-file
+
+# FIM: How to export using a threshold
+https://learn.microsoft.com/en-us/archive/technet-wiki/9537.fim-how-to-export-using-a-threshold
+
+# FIM: How to test the exporting of data before it is exported
+https://learn.microsoft.com/en-us/archive/technet-wiki/9538.fim-how-to-test-the-exporting-of-data-before-it-is-exported
+
+# FIM Self-Service Password Reset (SSPR) Resources
+https://learn.microsoft.com/en-us/archive/technet-wiki/9846.fim-self-service-password-reset-sspr-resources
+
+# FIM Reference: How to determine the build of FIM 2010
+https://learn.microsoft.com/en-us/archive/technet-wiki/9855.fim-reference-how-to-determine-the-build-of-fim-2010
+

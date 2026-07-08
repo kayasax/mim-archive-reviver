@@ -37,6 +37,18 @@ built, end to end, working alongside an AI agent (Scout).
 The public demo caps searches at `DAILY_REQUEST_LIMIT` (default 50/day) to
 keep Azure OpenAI cost bounded.
 
+## Deploying
+
+Two-image split (data changes rarely, code changes often):
+
+```powershell
+# Rebuild only when data/lancedb changes (slower)
+az acr build --registry mimarchivereviveracr --image mim-archive-reviver-data:latest -f Dockerfile.data .
+
+# Rebuild on every code change (fast, seconds)
+az acr build --registry mimarchivereviveracr --image mim-archive-reviver:latest -f Dockerfile .
+```
+
 ## Stack
 
 Node.js, Express, [LanceDB](https://lancedb.com/), Model Context Protocol SDK,
