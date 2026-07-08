@@ -57,6 +57,19 @@ unsupervised, it will happily solve an already-solved problem a second,
 third, or fourth time. That's a real limitation to plan around, not a
 one-off glitch.
 
+## Scaling up: 450 articles, and a rate-limit wall
+
+Once the pipeline worked on a handful of articles, the obvious next step
+was: do the whole archive, not a sample. That meant embedding several
+thousand chunks instead of a few dozen, and the very first real run of it
+quietly stalled. Turned out my Azure OpenAI deployment's default capacity
+was set low enough that a real batch just got throttled into silence, no
+crash, no clear error, just nothing moving. I'd actually adjusted this
+exact setting before in the Azure AI Foundry portal on a different project
+and apparently needed the reminder. Bumping the deployment's capacity and
+adding retry-with-backoff on the embedding calls fixed it. The full run
+indexed all 450 articles into about 1,350 vector chunks.
+
 ## Before / after
 
 Before: I would have spent 30 minutes just scaffolding a new repo, picking a
