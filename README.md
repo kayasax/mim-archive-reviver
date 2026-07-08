@@ -4,6 +4,9 @@ Semantic search over the archived TechNet Wiki content for Microsoft FIM/MIM
 (Forefront/Microsoft Identity Manager). Keyword search stopped surfacing it
 years ago; this project brings it back.
 
+**Live demo:** https://mim-archive-reviver.orangefield-96359101.francecentral.azurecontainerapps.io
+(rate-limited to keep Azure costs sane, see below)
+
 ## The problem
 
 A colleague still supporting FIM/MIM flagged it plainly: the TechNet Wiki
@@ -22,8 +25,10 @@ online, practically invisible.
 
 ## Status
 
-Early build. See `/docs` for the running spec and the story of how this got
-built, end to end, working alongside an AI agent (Scout).
+Live: 450 FIM/MIM TechNet Wiki archive articles scraped, chunked, embedded
+(Azure OpenAI text-embedding-3-small), and indexed in LanceDB (~1,350 vector
+chunks). Deployed to Azure Container Apps. See `/docs/blog-draft.md` for the
+full story of how this got built, working alongside an AI agent (Scout).
 
 ## Running locally
 

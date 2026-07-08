@@ -101,5 +101,6 @@ On all three, the honest answer is yes, with real friction along the way
 rethinking), not a frictionless demo reel.
 
 Repo: [MIM Archive Reviver](https://github.com/kayasax/mim-archive-reviver)
+Live demo: https://mim-archive-reviver.orangefield-96359101.francecentral.azurecontainerapps.io
 
 #AI #AIAgents #BuildInPublic #Azure #OpenSource
