@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MIM Archive Reviver</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color: #222; }
+  h1 { font-size: 1.4rem; }
+  p.sub { color: #666; }
+  #q { width: 100%; padding: 10px; font-size: 1rem; box-sizing: border-box; }
+  button { padding: 10px 16px; font-size: 1rem; margin-top: 8px; cursor: pointer; }
+  .result { border-top: 1px solid #ddd; padding: 12px 0; }
+  .result a { font-weight: 600; }
+  .result .excerpt { color: #444; font-size: 0.95rem; }
+  .error { color: #b00020; }
+</style>
+</head>
+<body>
+  <h1>MIM Archive Reviver</h1>
+  <p class="sub">Semantic search over the archived TechNet Wiki content for FIM/MIM.</p>
+  <input id="q" placeholder="e.g. sync engine installation error 25009" />
+  <button id="go">Search</button>
+  <div id="results"></div>
+
+  <script>
+    const qEl = document.getElementById("q");
+    const goEl = document.getElementById("go");
+    const resultsEl = document.getElementById("results");
+
+    async function runSearch() {
+      const q = qEl.value.trim();
+      if (!q) return;
+      resultsEl.textContent = "Searching...";
+      try {
+        const res = await fetch("/api/search?q=" + encodeURIComponent(q));
+        const data = await res.json();
+        if (!res.ok) {
+          resultsEl.innerHTML = '<p class="error">' + data.error + "</p>";
+          return;
+        }
+        if (!data.results.length) {
+          resultsEl.textContent = "No results.";
+          return;
+        }
+        resultsEl.innerHTML = data.results
+          .map(
+            (r) =>
+              '<div class="result"><a href="' +
+              r.url +
+              '" target="_blank" rel="noopener">' +
+              r.title +
+              "</a><div class=\"excerpt\">" +
+              r.text.slice(0, 240).replace(/</g, "&lt;") +
+              "…</div></div>"
+          )
+          .join("");
+      } catch (err) {
+        resultsEl.innerHTML = '<p class="error">' + err.message + "</p>";
+      }
+    }
+
+    goEl.addEventListener("click", runSearch);
+    qEl.addEventListener("keydown", (e) => { if (e.key === "Enter") runSearch(); });
+  </script>
+</body>
+</html>

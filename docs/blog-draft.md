@@ -1,4 +1,4 @@
-# From "someone should fix this" to a working demo, in one afternoon with an AI agent
+# From "someone should fix this" to a working demo with an AI agent
 
 ## The constraint
 
@@ -9,6 +9,17 @@ technically online, practically invisible.
 
 That's the kind of problem that used to sit on a "someday" list. Not anymore.
 
+## The conversation that got it going
+
+I explained the pain point to Scout, then added the one fact that mattered:
+I have a personal Azure subscription, and access to Azure AI Foundry. Given
+that, how would you actually bring semantic search to this?
+
+That's how I first heard the terms LanceDB and text embeddings. Neither
+meant anything to me a few minutes earlier. Scout walked me through what
+each one does and why they fit together, and it clicked fast enough that
+the only reasonable next step was: let's experiment with this.
+
 ## Before / after
 
 Before: I would have spent 30 minutes just scaffolding a new repo, picking a
@@ -16,7 +27,7 @@ stack, wiring up the boilerplate, before writing a single line that touches
 the actual problem.
 
 This time: I described the idea to Scout in one sentence, and the repo was
-initialized, structured, ready to build on, before I'd finished my coffee.
+initialized and structured, ready to build on, in a couple of minutes.
 
 ## What I actually wanted to prove
 
