@@ -49,8 +49,23 @@ function client() {
 }
 
 async function embed(text) {
-  const res = await client().embeddings.create({ model: EMBEDDING_DEPLOYMENT, input: text });
-  return res.data[0].embedding;
+  const maxRetries = 4;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const timeoutMs = Number(process.env.AZURE_OPENAI_EMBEDDING_TIMEOUT_MS || 45000);
+      const res = await client().embeddings.create(
+        { model: EMBEDDING_DEPLOYMENT, input: text },
+        { timeout: timeoutMs }
+      );
+      return res.data[0].embedding;
+    } catch (err) {
+      const isLast = attempt === maxRetries;
+      if (isLast) throw err;
+      const backoffMs = 1000 * Math.pow(2, attempt);
+      console.log(`  [retry ${attempt + 1}/${maxRetries}] embed failed (${err.message}), waiting ${backoffMs}ms`);
+      await new Promise((r) => setTimeout(r, backoffMs));
+    }
+  }
 }
 
 async function run() {
@@ -60,24 +75,34 @@ async function run() {
     process.exit(1);
   }
 
-  const rows = [];
-  for (const file of files) {
-    const { url, title, text } = JSON.parse(fs.readFileSync(path.join(RAW_DIR, file), "utf8"));
-    const chunks = chunkText(text);
-    for (let i = 0; i < chunks.length; i++) {
-      console.log(`Embedding ${title} [chunk ${i + 1}/${chunks.length}]`);
-      const vector = await embed(chunks[i]);
-      rows.push({ url, title, chunk_index: i, text: chunks[i], vector });
-    }
-  }
-
   const db = await lancedb.connect(DB_DIR);
   const existing = await db.tableNames();
   if (existing.includes(TABLE)) {
     await db.dropTable(TABLE);
   }
-  await db.createTable(TABLE, rows);
-  console.log(`Indexed ${rows.length} chunks from ${files.length} articles into ${DB_DIR}/${TABLE}`);
+  let table = null;
+
+  let done = 0;
+  for (const file of files) {
+    const { url, title, text } = JSON.parse(fs.readFileSync(path.join(RAW_DIR, file), "utf8"));
+    const chunks = chunkText(text);
+    const rows = [];
+    for (let i = 0; i < chunks.length; i++) {
+      const vector = await embed(chunks[i]);
+      rows.push({ url, title, chunk_index: i, text: chunks[i], vector });
+    }
+    if (table === null) {
+      table = await db.createTable(TABLE, rows);
+    } else {
+      await table.add(rows);
+    }
+    done += 1;
+    if (done % 10 === 0 || done === files.length) {
+      console.log(`[${done}/${files.length}] indexed "${title}" (${chunks.length} chunks)`);
+    }
+  }
+
+  console.log(`Done. Indexed ${files.length} articles into ${DB_DIR}/${TABLE}`);
 }
 
 run().catch((err) => {
