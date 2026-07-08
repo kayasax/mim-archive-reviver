@@ -1,12 +1,14 @@
 // Chunks the scraped articles and embeds them into a local LanceDB table,
 // using Azure OpenAI text-embedding-3-small (same model Loic used before).
-// Requires AZURE_OPENAI_ENDPOINT + AZURE_OPENAI_API_KEY (or managed identity)
-// and AZURE_OPENAI_EMBEDDING_DEPLOYMENT in .env (gitignored).
+// Auth: Entra ID (DefaultAzureCredential, e.g. `az login`) by default, since
+// this resource has local API-key auth disabled. Set AZURE_OPENAI_API_KEY to
+// use key auth instead if you ever enable it.
 require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const lancedb = require("@lancedb/lancedb");
 const { AzureOpenAI } = require("openai");
+const { DefaultAzureCredential, getBearerTokenProvider } = require("@azure/identity");
 
 const RAW_DIR = path.join(__dirname, "..", "data", "raw");
 const DB_DIR = path.join(__dirname, "..", "data", "lancedb");
@@ -32,18 +34,17 @@ let _client = null;
 function client() {
   if (_client) return _client;
   const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
-  const apiKey = process.env.AZURE_OPENAI_API_KEY;
-  if (!endpoint || !apiKey) {
-    throw new Error(
-      "Missing AZURE_OPENAI_ENDPOINT / AZURE_OPENAI_API_KEY. Set them in a local .env file (gitignored) before running the indexer."
-    );
+  if (!endpoint) {
+    throw new Error("Missing AZURE_OPENAI_ENDPOINT. Set it in a local .env file (gitignored) before running the indexer.");
   }
-  _client = new AzureOpenAI({
-    endpoint,
-    apiKey,
-    apiVersion: process.env.AZURE_OPENAI_API_VERSION || "2024-10-21",
-    deployment: EMBEDDING_DEPLOYMENT,
-  });
+  const apiVersion = process.env.AZURE_OPENAI_API_VERSION || "2024-10-21";
+  if (process.env.AZURE_OPENAI_API_KEY) {
+    _client = new AzureOpenAI({ endpoint, apiKey: process.env.AZURE_OPENAI_API_KEY, apiVersion, deployment: EMBEDDING_DEPLOYMENT });
+  } else {
+    const credential = new DefaultAzureCredential();
+    const azureADTokenProvider = getBearerTokenProvider(credential, "https://cognitiveservices.azure.com/.default");
+    _client = new AzureOpenAI({ endpoint, azureADTokenProvider, apiVersion, deployment: EMBEDDING_DEPLOYMENT });
+  }
   return _client;
 }
 

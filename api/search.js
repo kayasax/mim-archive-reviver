@@ -5,6 +5,7 @@ require("dotenv").config();
 const path = require("path");
 const lancedb = require("@lancedb/lancedb");
 const { AzureOpenAI } = require("openai");
+const { DefaultAzureCredential, getBearerTokenProvider } = require("@azure/identity");
 
 const DB_DIR = path.join(__dirname, "..", "data", "lancedb");
 const TABLE = "fim_mim_chunks";
@@ -21,16 +22,17 @@ let _client = null;
 function client() {
   if (_client) return _client;
   const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
-  const apiKey = process.env.AZURE_OPENAI_API_KEY;
-  if (!endpoint || !apiKey) {
-    throw new Error("Azure OpenAI is not configured (AZURE_OPENAI_ENDPOINT / AZURE_OPENAI_API_KEY missing).");
+  if (!endpoint) {
+    throw new Error("Azure OpenAI is not configured (AZURE_OPENAI_ENDPOINT missing).");
   }
-  _client = new AzureOpenAI({
-    endpoint,
-    apiKey,
-    apiVersion: process.env.AZURE_OPENAI_API_VERSION || "2024-10-21",
-    deployment: EMBEDDING_DEPLOYMENT,
-  });
+  const apiVersion = process.env.AZURE_OPENAI_API_VERSION || "2024-10-21";
+  if (process.env.AZURE_OPENAI_API_KEY) {
+    _client = new AzureOpenAI({ endpoint, apiKey: process.env.AZURE_OPENAI_API_KEY, apiVersion, deployment: EMBEDDING_DEPLOYMENT });
+  } else {
+    const credential = new DefaultAzureCredential();
+    const azureADTokenProvider = getBearerTokenProvider(credential, "https://cognitiveservices.azure.com/.default");
+    _client = new AzureOpenAI({ endpoint, azureADTokenProvider, apiVersion, deployment: EMBEDDING_DEPLOYMENT });
+  }
   return _client;
 }
 
