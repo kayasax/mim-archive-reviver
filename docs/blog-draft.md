@@ -1,9 +1,18 @@
-# From "someone should fix this" to a working demo with an AI agent
+# From "someone should fix this" to a working demo, with an AI agent
 
-## The constraint
+## TL;DR
 
-A colleague still working FIM/MIM support flagged it plainly: the TechNet Wiki
-content for FIM/MIM got archived, and along with the move, it basically
+A colleague flagged that FIM/MIM troubleshooting content on the TechNet Wiki
+archive had become nearly unsearchable. I built a semantic search engine over
+it with an AI agent (Scout) doing most of the implementation work: 450 real
+articles scraped, embedded, and indexed, deployed on my own Azure
+subscription. This post is the honest version of how that went, including
+the parts that didn't work on the first try.
+
+## The problem
+
+A colleague still working FIM/MIM support flagged it plainly: the TechNet
+Wiki content for FIM/MIM got archived, and along with the move, it basically
 stopped showing up in search. Years of real troubleshooting knowledge, still
 technically online, practically invisible.
 
@@ -17,67 +26,62 @@ that, how would you actually bring semantic search to this?
 
 That's how I first heard the terms LanceDB and text embeddings. Neither
 meant anything to me a few minutes earlier. Scout walked me through what
-each one does and why they fit together, and it clicked fast enough that
-the only reasonable next step was: let's experiment with this.
+each one does and why they fit together, and it clicked fast enough that the
+only reasonable next step was: let's experiment with this.
 
-The part that stuck with me most isn't even the FIM/MIM search itself.
-It's that I now roughly understand what a vector database is and what a
-text embedding does, well enough to see that the exact same technique
-applies to any other pile of hard-to-search content. That's a repeatable
-skill now, not a one-off script.
+The part that stuck with me most isn't even the FIM/MIM search itself. It's
+that I now roughly understand what a vector database is and what a text
+embedding does, well enough to see that the exact same technique applies to
+any other pile of hard-to-search content. That's a repeatable skill now, not
+a one-off script.
 
-## The deployment surprise: why the index shouldn't ship with the code
+## Building the first working version
 
-Early on, redeploying the whole thing after every tiny code change felt
-slow, and it took me a while to notice why: the vector index (the actual
-searchable data) was being rebuilt and shipped inside the same container
-image as the code. Once I split the two, one build for code, one for data,
-code changes turned into a seconds-fast rebuild, and the data only rebuilds
-when it actually changes. Small decision, disproportionate payoff.
+Before writing a line that touched the actual problem, there used to be 30
+minutes of repo scaffolding and stack decisions. This time: one sentence to
+Scout, and the repo was initialized and structured in a couple of minutes.
 
-## The part that almost derailed it: parsing the archive itself
-
-Getting the actual list of FIM/MIM articles was harder than the search
-part. Our first instinct, Scout's included, was to crawl the archive by
-following its internal "See Also" links, and it mostly produced 404s and a
-handful of pages. I had to push back more than once to keep things simple:
-forget clever link-following, just walk the archive's own alphabetical
-index pages and keep the titles that mention FIM or MIM. That's what
-actually worked, 450 real articles, on the first straightforward attempt.
+The harder part wasn't the search engine, it was getting the actual list of
+FIM/MIM articles. Our first instinct, Scout's included, was to crawl the
+archive by following its internal "See Also" links. That mostly produced
+404s and a handful of pages. I had to push back more than once to keep
+things simple: forget clever link-following, just walk the archive's own
+alphabetical index and keep the titles that mention FIM or MIM. That's what
+actually worked: 450 real articles, on the first straightforward attempt.
 Sometimes the boring, direct path beats the clever one, and someone still
 has to insist on it.
 
-There's a second, quieter pattern worth naming here. Once a first working
-version of something exists, an AI agent's default instinct is often to
-rebuild it from scratch rather than reuse it, even when a proven
-implementation of the exact same problem is sitting right there in another
-of my own projects. I had to actively point Scout back to that existing
-code more than once and say "reuse this, don't reinvent it." Left
-unsupervised, it will happily solve an already-solved problem a second,
-third, or fourth time. That's a real limitation to plan around, not a
-one-off glitch.
+There's a second pattern worth naming here. Once a first working version of
+something exists, an AI agent's default instinct is often to rebuild it from
+scratch rather than reuse it, even when a proven implementation of the exact
+same problem is sitting right there in another of my own projects. I had to
+actively point Scout back to existing code more than once and say "reuse
+this, don't reinvent it." Left unsupervised, it will happily solve an
+already-solved problem a second, third, or fourth time.
 
-## Scaling up: 450 articles, and a rate-limit wall
+## Scaling from a handful of articles to the whole archive
 
-Once the pipeline worked on a handful of articles, the obvious next step
-was: do the whole archive, not a sample. That meant embedding several
-thousand chunks instead of a few dozen, and the very first real run of it
-quietly stalled. Turned out my Azure OpenAI deployment's default capacity
-was set low enough that a real batch just got throttled into silence, no
-crash, no clear error, just nothing moving. I'd actually adjusted this
-exact setting before in the Azure AI Foundry portal on a different project
-and apparently needed the reminder. Bumping the deployment's capacity and
-adding retry-with-backoff on the embedding calls fixed it. The full run
-indexed all 450 articles into about 1,350 vector chunks.
+Once the pipeline worked on a small sample, the obvious next step was: do
+the whole archive, not a sample. That meant embedding several thousand
+chunks instead of a few dozen, and the first real run of it quietly
+stalled: no crash, no clear error, just nothing moving. My Azure OpenAI
+deployment's default capacity was set too low, and a real batch got
+throttled into silence. I'd actually adjusted this exact setting before on
+a different project and needed the reminder. Bumping the deployment's
+capacity and adding retry-with-backoff on the embedding calls fixed it.
 
-## Before / after
+The full run: 450 articles scraped (1 too thin to keep, 0 errors), indexed
+into roughly 1,350 vector chunks in LanceDB.
 
-Before: I would have spent 30 minutes just scaffolding a new repo, picking a
-stack, wiring up the boilerplate, before writing a single line that touches
-the actual problem.
+## Deploying it: why the index shouldn't ship with the code
 
-This time: I described the idea to Scout in one sentence, and the repo was
-initialized and structured, ready to build on, in a couple of minutes.
+Once the data was ready, redeploying after every tiny code change felt
+slow, and it took me a while to notice why: the vector index was being
+rebuilt and shipped inside the same container image as the application
+code. Splitting the two, one build for code and one for data, turned code
+changes into a seconds-fast rebuild, with the (larger, slower) data image
+only rebuilding when the data itself changes. Small decision,
+disproportionate payoff.
 
 ## What I actually wanted to prove
 
@@ -86,19 +90,16 @@ test was this:
 
 - How smooth is the path from a one-line idea to a working, public demo,
   when an AI agent is doing the heavy lifting?
-- Does working this way actually make it easier to pick up new agentic
-  tools and push past constraints that used to mean "not worth the effort"?
-- Can the result still be genuinely simpler to use than what existed before,
-  not just faster to build?
+- Does working this way make it easier to pick up new tools (LanceDB,
+  embeddings, Azure AI Foundry) and push past constraints that used to mean
+  "not worth the effort"?
+- Can the result still be genuinely simpler to use than what existed
+  before, not just faster to build?
 
-## What's next in this series
-
-- How the search actually works (semantic search, briefly, not a deep dive)
-- The live demo, rate-limited to keep Azure costs sane
-- Exposing the same capability as an MCP tool, so it's not just a website,
-  it's a capability any AI agent can call
+On all three, the honest answer is yes, with real friction along the way
+(bad first instincts, a silent rate-limit wall, a deploy that needed
+rethinking), not a frictionless demo reel.
 
 Repo: [MIM Archive Reviver](https://github.com/kayasax/mim-archive-reviver)
-(link goes live once pushed)
 
-#AI #AIAgents #BuildInPublic #GenerativeAI
+#AI #AIAgents #BuildInPublic #Azure #OpenSource
