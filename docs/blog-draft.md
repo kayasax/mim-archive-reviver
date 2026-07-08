@@ -35,6 +35,28 @@ image as the code. Once I split the two, one build for code, one for data,
 code changes turned into a seconds-fast rebuild, and the data only rebuilds
 when it actually changes. Small decision, disproportionate payoff.
 
+## The part that almost derailed it: parsing the archive itself
+
+Getting the actual list of FIM/MIM articles was harder than the search
+part. Our first instinct, Scout's included, was to crawl the archive by
+following its internal "See Also" links, and it mostly produced 404s and a
+handful of pages. I had to push back more than once to keep things simple:
+forget clever link-following, just walk the archive's own alphabetical
+index pages and keep the titles that mention FIM or MIM. That's what
+actually worked, 450 real articles, on the first straightforward attempt.
+Sometimes the boring, direct path beats the clever one, and someone still
+has to insist on it.
+
+There's a second, quieter pattern worth naming here. Once a first working
+version of something exists, an AI agent's default instinct is often to
+rebuild it from scratch rather than reuse it, even when a proven
+implementation of the exact same problem is sitting right there in another
+of my own projects. I had to actively point Scout back to that existing
+code more than once and say "reuse this, don't reinvent it." Left
+unsupervised, it will happily solve an already-solved problem a second,
+third, or fourth time. That's a real limitation to plan around, not a
+one-off glitch.
+
 ## Before / after
 
 Before: I would have spent 30 minutes just scaffolding a new repo, picking a
