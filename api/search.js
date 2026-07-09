@@ -55,12 +55,29 @@ async function search(query, topK = 5) {
   const table = await database.openTable(TABLE);
   const vector = await embedQuery(query);
   const results = await table.search(vector).limit(topK).toArray();
-  return results.map((r) => ({
-    title: r.title,
-    url: r.url,
-    text: r.text,
-    score: r._distance != null ? Math.round((1 / (1 + r._distance)) * 100) : null,
-  }));
+
+  // Raw cosine distances for this embedding model cluster tightly (roughly
+  // 0.8-1.3), so an absolute 1/(1+distance) score barely moves and looks
+  // misleadingly low even for great matches. Normalize relative to this
+  // query's own best/worst result instead: top match = 100%, scaled down
+  // from there. This reflects ranking confidence within the result set,
+  // not a universal similarity percentage.
+  const distances = results.map((r) => r._distance).filter((d) => d != null);
+  const minDist = distances.length ? Math.min(...distances) : 0;
+  const maxDist = distances.length ? Math.max(...distances) : 0;
+  const spread = maxDist - minDist;
+
+  return results.map((r) => {
+    let score = null;
+    if (r._distance != null) {
+      if (spread < 1e-6) {
+        score = 100; // all results equally close, e.g. topK=1
+      } else {
+        score = Math.round(100 - ((r._distance - minDist) / spread) * 60);
+      }
+    }
+    return { title: r.title, url: r.url, text: r.text, score };
+  });
 }
 
 module.exports = { search };
