@@ -4,7 +4,7 @@ Semantic search over the archived TechNet Wiki content for Microsoft FIM/MIM
 (Forefront/Microsoft Identity Manager). Keyword search stopped surfacing it
 years ago; this project brings it back.
 
-**Live demo:** https://mim-archive-reviver.orangefield-96359101.francecentral.azurecontainerapps.io
+**Live demo:** https://mimar.yespapa.eu
 (rate-limited to keep Azure costs sane, see below)
 
 ## The problem
