@@ -1,4 +1,4 @@
-# From "someone should fix this" to a working demo, with an AI agent
+# Reviving a dead archive with Microsoft Scout, in half a day
 
 ## The problem
 
