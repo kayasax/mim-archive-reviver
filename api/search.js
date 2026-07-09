@@ -41,6 +41,33 @@ async function embedQuery(text) {
   return res.data[0].embedding;
 }
 
+// Pure vector search treats an exact identifier like an error code ("25009")
+// as just another token, with no special weight. On this corpus, that let a
+// generic installation article outrank the one specifically about the exact
+// error code asked about, because their surrounding wording was similar
+// enough for the embedding distances to barely differ. Extract distinctive
+// exact tokens from the query (mainly numeric codes, 4+ digits) and boost
+// any candidate whose title or text contains them verbatim: a minimal
+// keyword layer on top of semantic search (a small step toward hybrid
+// search), not a full keyword engine.
+function extractExactTokens(query) {
+  const matches = query.match(/\b\d{4,}\b/g) || [];
+  return [...new Set(matches)];
+}
+
+function applyExactMatchBoost(results, exactTokens) {
+  if (exactTokens.length === 0) return results;
+  return results.map((r) => {
+    const haystack = `${r.title} ${r.text}`;
+    const hasExactMatch = exactTokens.some((tok) => haystack.includes(tok));
+    // Distances on this model cluster tightly (~0.95-1.1); a fixed nudge is
+    // enough to move a genuine exact-code match ahead of a merely-similar
+    // generic article, without overriding a much stronger semantic result.
+    const adjustedDistance = hasExactMatch ? r._distance - 0.05 : r._distance;
+    return { ...r, _adjustedDistance: adjustedDistance };
+  });
+}
+
 /**
  * @param {string} query
  * @param {number} topK
@@ -54,30 +81,28 @@ async function search(query, topK = 5) {
   }
   const table = await database.openTable(TABLE);
   const vector = await embedQuery(query);
-  const results = await table.search(vector).limit(topK).toArray();
+  // Over-fetch candidates so the exact-match boost has a real pool to
+  // re-rank from, then trim back down to topK after boosting.
+  const candidates = await table.search(vector).limit(Math.max(topK * 4, 20)).toArray();
 
-  // Raw cosine distances for this embedding model cluster tightly (roughly
-  // 0.8-1.3), so an absolute 1/(1+distance) score barely moves and looks
-  // misleadingly low even for great matches. Normalize relative to this
-  // query's own best/worst result instead: top match = 100%, scaled down
-  // from there. This reflects ranking confidence within the result set,
-  // not a universal similarity percentage.
-  const distances = results.map((r) => r._distance).filter((d) => d != null);
-  const minDist = distances.length ? Math.min(...distances) : 0;
-  const maxDist = distances.length ? Math.max(...distances) : 0;
-  const spread = maxDist - minDist;
+  const exactTokens = extractExactTokens(query);
+  const boosted = applyExactMatchBoost(candidates, exactTokens)
+    .sort((a, b) => (a._adjustedDistance ?? a._distance) - (b._adjustedDistance ?? b._distance))
+    .slice(0, topK);
 
-  return results.map((r) => {
-    let score = null;
-    if (r._distance != null) {
-      if (spread < 1e-6) {
-        score = 100; // all results equally close, e.g. topK=1
-      } else {
-        score = Math.round(100 - ((r._distance - minDist) / spread) * 60);
-      }
-    }
-    return { title: r.title, url: r.url, text: r.text, score };
-  });
+  // Absolute score from cosine distance, NOT relative to the top result of
+  // this query. A relative score (top match = 100%) was tried and reverted:
+  // it made every top-1 result look like a perfect match even when the
+  // actual best distance was mediocre, hiding genuinely weak result sets
+  // instead of surfacing that no result was a strong match. An absolute
+  // score can look "flat" (often 40-60%) because embedding distances for
+  // this model cluster tightly, but it's honest about match quality.
+  return boosted.map((r) => ({
+    title: r.title,
+    url: r.url,
+    text: r.text,
+    score: r._distance != null ? Math.round((1 / (1 + r._distance)) * 100) : null,
+  }));
 }
 
 module.exports = { search };
