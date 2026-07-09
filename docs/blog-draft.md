@@ -9,9 +9,10 @@ knowledge, still technically online, practically invisible.
 
 ## The conversation that got it going
 
-I explained the problem to Scout, then added the one fact that mattered: I
-have a personal Azure subscription, and access to Azure AI Foundry. Given
-that, how would you actually bring semantic search to this?
+I explained the problem to [Microsoft Scout](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/),
+then added the one fact that mattered: I have a personal Azure subscription,
+and access to Azure AI Foundry. Given that, how would you actually bring
+semantic search to this?
 
 That's how I first heard the terms LanceDB and text embeddings. Neither
 meant anything to me a few minutes earlier. Scout walked me through what
