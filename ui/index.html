@@ -13,7 +13,10 @@
   .result { border-top: 1px solid #ddd; padding: 12px 0; }
   .result a { font-weight: 600; }
   .result .excerpt { color: #444; font-size: 0.95rem; }
+  .result .score { font-size: 0.75rem; color: #888; margin-top: 4px; }
   .error { color: #b00020; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 0.85rem; color: #666; }
+  footer a { color: #666; }
 </style>
 </head>
 <body>
@@ -22,6 +25,13 @@
   <input id="q" placeholder="e.g. sync engine installation error 25009" />
   <button id="go">Search</button>
   <div id="results"></div>
+
+  <footer>
+    Built by <a href="https://github.com/kayasax" target="_blank" rel="noopener">Loïc Michel</a>,
+    with an AI agent doing most of the implementation.
+    <a href="https://github.com/kayasax/mim-archive-reviver" target="_blank" rel="noopener">Source on GitHub</a>
+    · <a href="https://dev.to/kayasax" target="_blank" rel="noopener">Read the write-up</a>
+  </footer>
 
   <script>
     const qEl = document.getElementById("q");
@@ -52,7 +62,9 @@
               r.title +
               "</a><div class=\"excerpt\">" +
               r.text.slice(0, 240).replace(/</g, "&lt;") +
-              "…</div></div>"
+              "…</div>" +
+              (r.score != null ? '<div class="score">Relevance: ' + r.score + "%</div>" : "") +
+              "</div>"
           )
           .join("");
       } catch (err) {

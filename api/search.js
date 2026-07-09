@@ -59,7 +59,7 @@ async function search(query, topK = 5) {
     title: r.title,
     url: r.url,
     text: r.text,
-    score: r._distance,
+    score: r._distance != null ? Math.round((1 / (1 + r._distance)) * 100) : null,
   }));
 }
 
