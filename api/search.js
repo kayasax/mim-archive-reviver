@@ -90,19 +90,23 @@ async function search(query, topK = 5) {
     .sort((a, b) => (a._adjustedDistance ?? a._distance) - (b._adjustedDistance ?? b._distance))
     .slice(0, topK);
 
-  // Absolute score from cosine distance, NOT relative to the top result of
-  // this query. A relative score (top match = 100%) was tried and reverted:
-  // it made every top-1 result look like a perfect match even when the
-  // actual best distance was mediocre, hiding genuinely weak result sets
-  // instead of surfacing that no result was a strong match. An absolute
-  // score can look "flat" (often 40-60%) because embedding distances for
-  // this model cluster tightly, but it's honest about match quality.
-  return boosted.map((r) => ({
-    title: r.title,
-    url: r.url,
-    text: r.text,
-    score: r._distance != null ? Math.round((1 / (1 + r._distance)) * 100) : null,
-  }));
+  // Score reflects the same distance used for ranking (after the exact-match
+  // boost), so the displayed percentage and the sort order always agree.
+  // Absolute score, NOT relative to the top result of this query: a relative
+  // score (top match = 100%) was tried and reverted, it made every top-1
+  // result look like a perfect match even when the actual best distance was
+  // mediocre, hiding weak result sets instead of surfacing them. Absolute
+  // scores can look "flat" (often 40-60%) since distances for this model
+  // cluster tightly, but they're honest about match quality.
+  return boosted.map((r) => {
+    const distanceForScore = r._adjustedDistance ?? r._distance;
+    return {
+      title: r.title,
+      url: r.url,
+      text: r.text,
+      score: distanceForScore != null ? Math.round((1 / (1 + distanceForScore)) * 100) : null,
+    };
+  });
 }
 
 module.exports = { search };
