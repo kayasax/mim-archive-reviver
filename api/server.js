@@ -2,7 +2,7 @@ require("dotenv").config();
 const path = require("path");
 const express = require("express");
 const { search } = require("./search");
-const { rateLimit, LIMIT } = require("./rate-limit");
+const { rateLimit, getStats, LIMIT } = require("./rate-limit");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -23,6 +23,8 @@ app.get("/api/search", rateLimit, async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+app.get("/api/stats", (_req, res) => res.json(getStats()));
 
 app.get("/health", (_req, res) => res.json({ ok: true }));
 
